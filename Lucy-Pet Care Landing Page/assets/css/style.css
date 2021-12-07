@@ -1,0 +1,2296 @@
+/* Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background: #FFFAF5;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Common CSS End */
+/* Lucy Header Section Start  */
+._lucy_header_wrapper{
+    padding: 30px 0;
+}
+._lucy_logo_image{
+    height: 37px;
+}
+._lucy_logo{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 103px;
+}
+._lucy_toggler{
+    box-shadow: none !important;
+}
+._lucy_nav_list{
+    margin: 0 auto;
+}
+._lucy_nav_item{
+    margin: 0 16px;
+}
+._lucy_nav_link{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    width: fit-content;
+    line-height: 1.2;
+    color: #5E6085 !important;
+}
+._lucy_nav_link:hover{
+    color: #000958 !important;
+}
+._lucy_nav_link_active{
+    font-family: Poppins;
+    font-weight: 600;
+    display: block;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000958 !important;
+}
+._lucy_btn_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+._lucy_btn_item{
+    border: 1px solid #000958;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 18px 32px;
+}
+._lucy_btn_link{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000958;
+    display: block;
+    width: fit-content;
+}
+._lucy_btn_link:hover{
+    color: #5E6085 !important;
+}
+._lucy_header_wrap{
+    padding: 80px 0 0 0;
+}
+._lucy_header_image{
+    margin: 0 0 0 -52px;
+}
+._lucy_header_img{
+    max-width: 551px;
+}
+._lucy_header_content{
+    margin: 0 0 0 50px;
+}
+._lucy_header_title{
+    font-family: Sora;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1.2;
+    color: #000958;
+    margin: 0 0 24px 0;
+    max-width: 80%;
+}
+._lucy_header_para{
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #656689;
+    margin: 0 0 38px 0;
+    max-width: 66%;
+}
+._lucy_header_inner_list{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+._lucy_header_inner_item{
+    margin: 0 10px 0 0;
+}
+._lucy_header_inner_link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    color: #000958;
+    display: block;
+    width: fit-content;
+    padding: 22px 30px;
+    line-height: 1.2;
+    transition: .2s all ease;
+}
+._lucy_header_inner_link:hover{
+    text-decoration: none;
+    color: #000958;  
+}
+._lucy_header_inner_link_active{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FF5B2E;
+    border-radius: 31px;
+}
+._lucy_header_inner_link_active:hover{
+    color: #FFFFFF;
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+._lucy_header_inner_link_active span{
+    padding: 10px;
+    margin: 0 0 0 5px;
+    display: inline-flex;
+    align-self: center;
+    border-radius: 50%;
+    background: #FFFAF5;
+    box-shadow: 4px 3px 10px -1px rgba(191, 41, 0, 0.4);
+}
+/* Lucy Header Section End */
+/* Lucy About Section Start  */
+._lucy_about_wrapper{
+    padding: 50px 0;
+}
+._lucy_about_tag{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0 0 15px 0;
+    color: #5E6085;
+    max-width: 19%;
+}
+._lucy_about_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.4;
+    max-width: 64%;
+    margin: 0 0 24px 0;
+    color: #000958;
+}
+._lucy_about_para{
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.6;
+    max-width: 62%;
+    margin: 0 0 37px 0;
+    color: #656689;
+}
+._lucy_about_image{
+    margin: 0 auto;
+}
+._lucy_about_img{
+    max-width: 636px;
+}
+._lucy_about_list{
+    margin: 0;
+    padding: 0;
+}
+._lucy_about_item{
+    margin: 0 0 25px 0;
+}
+._lucy_about_link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #48496A;
+    display: block;
+    width: fit-content;
+}
+._lucy_about_link span{
+    background: #FF5D31;
+    border-radius: 4px;
+    padding: 5px 3px;
+    display: inline-flex;
+    align-self: center;
+    margin: 0 5px 0 0;
+}
+._lucy_about_link:hover{
+    color: #48496A;
+}
+._lucy_about_link:hover span{
+    box-shadow: 0px 4px 15px -3px rgba(255, 93, 49, 0.69);
+}
+/* Lucy About Section End */
+/* Lucy Vacation Section Start */
+._lucy_vacation_wrapper{
+    padding: 100px 0;
+}
+._lucy_vacation_image{
+    margin: 0 auto;
+}
+._lucy_vacation_img{
+    max-width: 500px;
+}
+._lucy_vacation_content {
+    margin: 0 0 0 20px;
+}
+._lucy_vacation_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.4;
+    color: #000958;
+    max-width: 79%;
+    margin: 0 0 24px 0;
+}
+._lucy_vacation_para{
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #656689;
+    max-width: 78%;
+    margin: 0 0 52px 0;
+}
+._lucy_vacation_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 48px 0;
+    padding: 0;
+    position: relative;
+}
+._lucy_vacation_list::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0.07;
+    border: 2px solid #FF5B2E;
+    margin: 0 0 -12px 0;
+}
+._lucy_vacation_list::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    border: 2px solid #FF5B2E;
+    margin: 0 0 -12px 0;
+}
+._lucy_vacation_item span{
+    margin: 0 11px 0 0;
+}
+._lucy_vacation_item{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    color: #48496A;
+}
+._lucy_vacation_2nd_para{
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #656689;
+    max-width: 67%;
+    margin: 0 0 32px 0;
+}
+._lucy_vacation_link{
+    font-family: Poppins;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #FF5D31;
+    transition: .2s all ease;
+}
+._lucy_vacation_link:hover{
+    color: #FF5D31;
+    text-decoration: none;
+}
+/* Lucy Vacation Section End */
+/* Lucy Service Section Start */
+._lucy_service_wrapper{
+    padding: 80px 0;
+    background: #FFF6ED;
+}
+._lucy_service_wrap{
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+._lucy_service_para{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #5E6085;
+}
+._lucy_service_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #000958;
+}
+._lucy_service_content{
+    position: relative;
+    background: #FFFFFF;
+    border: 2px solid rgba(255, 188, 122, 0.26);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px 28px;
+    margin: 0 0 24px 0;
+}
+._lucy_service_content_title{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #000958;
+    max-width: 100%;
+    margin: 0 0 18px 10px;
+    position: relative;
+}
+ ._lucy_service_content_title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 3px;
+    height: 22px;
+    /* transform: rotate(90deg); */
+    background: #FF5B2E;
+    margin: 0 0 0 -10px;
+}
+._lucy_service_content_para{
+    font-family: Poppins;
+    font-size: 11px;
+    line-height: 1.6;
+    color: #656689;
+    max-width: 95%;
+}
+._lucy_service_content_link{
+    font-family: Sora;
+    font-size: 11px;
+    line-height: 1.2;
+    display: block;
+    width: fit-content;
+    color: #34396A;
+    transition: .2s all ease;
+}
+._lucy_service_content_link:hover{
+    color: #565b8a;
+}
+._lucy_service_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+._lucy_service_image{
+    margin: 0 auto 45px auto;
+    padding: 0;
+}
+._lucy_service_img{
+    max-width: 447px;
+}
+._lucy_service_box_link{
+    padding: 20px 40px;
+    opacity: 0.6;
+    border: 1px solid #FF5B2E;
+    box-sizing: border-box;
+    border-radius: 31px;
+    display: inline-flex;
+}
+._lucy_service_box_link:hover{
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+._lucy_service_link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FF5B2E;
+    transition: .2s all ease;
+    display: flex;
+    justify-content: center;
+}
+._lucy_service_link:hover{
+    color: #FF5B2E !important;
+}
+/* Lucy service Section End */
+/* Lucy Groomers Section Start */
+._lucy_groomers_wrapper{
+    padding: 80px 0;
+}
+._lucy_groomers_wrap{
+    text-align: center;
+}
+._lucy_groomers_para{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #5E6085;
+}
+._lucy_groomers_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 0 0 45px 0;
+    color: #000958;
+}
+._lucy_groomers_image{
+    margin: 0 0 34px 0;
+}
+._lucy_groomers_img{
+    max-width: 266px;
+}
+._lucy_groomers_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+._lucy_groomer_post{
+    padding: 0;
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #656689;
+    margin: 0 0 14px 0;
+}
+._lucy_groomer_title{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000958;
+    margin: 0 0 48px 0;
+}
+._lucy_groomers_link_box{
+    padding: 20px 40px;
+    display: inline-flex;
+    opacity: 0.6;
+    border: 1px solid #FF5B2E;
+    box-sizing: border-box;
+    border-radius: 31px;
+    margin: 0 auto;
+}
+._lucy_groomers_link_box:hover{
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+._lucy_groomers_link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FF5B2E;
+    display: block;
+    width: fit-content;
+    transition: .2s all ease;
+}
+._lucy_groomers_link:hover{
+    color: #FF5B2E;
+}
+/* Lucy Groomers Section End */
+/* Lucy Choice Section Start */
+._lucy_choice_wrapper{
+    padding: 70px 0;
+    background: #FFF6ED;
+}
+._lucy_choice_wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+._lucy_choice_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.2;
+    text-align: center;
+    color: #000958;
+    margin: 0 0 24px 0;
+}
+._lucy_choice_para{
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #656689;
+    text-align: center;
+    max-width: 54%;
+    margin: 0 0 38px 0;
+}
+._lucy_choice_list{
+    display: flex;
+    border: 1px solid #FF5B2E;
+    box-sizing: border-box;
+    border-radius: 31px;
+    padding: 0;
+    margin: 0 0 56px 0;
+    position: relative;
+}
+._lucy_choice_list::before{
+    content: url(../images/best_choice_before.svg);
+    position: absolute;
+    top: -15px;
+    right: -115px;
+}
+._lucy_choice_item{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 15px 40px;
+    line-height: 1.2;
+    color: #FF5B2E;
+}
+._lucy_choice_item_active{
+    background: #FF5B2E;
+    color: #FFFFFF;
+    padding: 15px 40px;
+    border-radius: 31px;
+}
+._lucy_choice_inner_wrap{
+    padding: 30px 28px;
+    margin: 0 0 30px 0;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+._lucy_choice_inner_tag{
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #FF5B2E;
+    margin: 0 0 8px 0;
+}
+._lucy_choice_inner_para{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #3F4065;
+    margin: 0 0 24px 0;
+}
+._lucy_choice_inner_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+    color: #000958;
+    margin: 0 0 36px 0;
+}
+._lucy_choice_inner_link_box{
+    margin: 0 0 24px 0;
+    
+}
+._lucy_choice_inner_link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 14px 65px;
+    display: inline-block;
+    border: 1px solid rgba(255, 91, 46, 0.6);
+    box-sizing: border-box;
+    border-radius: 39px;
+    line-height: 1.2;
+    color: #FF5B2E;
+    transition: .2s all ease;
+}
+._lucy_choice_inner_link:hover{
+    color: #a82905;
+}
+._lucy_choice_inner_link_active{
+    color: #FFFFFF;
+    background: #FF5B2E;
+}
+._lucy_choice_inner_link_active:hover{
+    color: #dfd9d9;
+}
+._lucy_choice_inner_list{
+    padding: 0;
+    margin: 0;
+}
+._lucy_choice_inner_item{
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0 0 18px 0;
+    color: #656689;
+    position: relative;
+}
+._lucy_choice_inner_item span{
+    margin: 0 5px 0 0;
+}
+/* Lucy Choice Section End */
+/* Lucy Review Section Start */
+._lucy_review_wrapper{
+    padding: 70px 0;
+}
+._lucy_review_slider{
+    position: relative;
+}
+._lucy_review_wrap{
+    display: flex;
+    align-items: center;
+}
+._lucy_review_image {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+._lucy_review_img{
+    max-width: 274px;
+}
+._lucy_review_inner_wrap{
+    margin: 0 -54px;
+}
+._lucy_review_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #000958;
+    margin: 0 0 24px 0;
+}
+._lucy_review_para{
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #000000;
+    max-width: 81%;
+}
+._lucy_reviewer_title {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 0 0 15px 30px;
+    color: #282828;
+    position: relative;
+}
+._lucy_reviewer_title::before{
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 7px;
+    width: 20px;
+    border: 2px solid #000000;
+}
+._lucy_review_slider_btn_group{
+    position: relative;
+}
+._prev_btn{
+    position: absolute;
+    bottom: 184px;
+    background: transparent;
+    outline: none !important;
+    width: 54px;
+    height: 54px;
+    border: 1.5px solid #FFD1C4;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: .2s all ease;
+}
+._next_btn{
+    position: absolute;
+    right: 0;
+    bottom: 184px;
+    background: transparent;
+    outline: none !important;
+    width: 54px;
+    height: 54px;
+    border: 1.5px solid #FFD1C4;
+    box-sizing: border-box;
+    border-radius: 50%;
+    transition: .2s all ease;
+}
+._prev_btn:hover{
+    background: #FF5B2E;
+    box-shadow: 0px 5px 27px rgba(255, 91, 46, 0.3);
+}
+._prev_btn:hover path{
+    stroke: #fff;
+}
+._next_btn:hover{
+    background: #FF5B2E;
+    box-shadow: 0px 5px 27px rgba(255, 91, 46, 0.3);
+}
+._next_btn:hover path{
+    stroke: #fff;
+}
+._lucy_review_dots{
+    position: absolute;
+    left: 52%;
+    transform: translateX(-52%);
+}
+.glide__bullet {
+    border: 1px solid #FF5B2E;
+    border-radius: 4px;
+    background: transparent;
+    width: 8px;
+    height: 8px;
+    outline: none !important;
+}
+.glide__bullet--active {
+    background: #FF5B2E;
+    border-radius: 4px;
+    width: 24px;
+}
+/* Lucy Review Section End */
+/* Lucy Blog Section Start */
+._lucy_blog_wrapper{
+    padding: 70px 0;
+}
+._lucy_blog_title{
+    font-family: Sora;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.2;
+    color: #000958;
+}
+._lucy_blog_para{
+    font-family: Poppins;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #656689;
+    max-width: 84%;
+    margin: 0 0 24px 0;
+}
+._lucy_blog_link_box{
+    display: inline-flex;
+    align-items: center;
+    opacity: 0.6;
+    border: 1px solid #FF5B2E;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 31px;
+    margin: 0 0 54px 0;
+}
+._lucy_blog_link_box:hover{
+    box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+}
+._lucy_blog_link{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #FF5B2E;
+}
+._lucy_blog_link:hover{
+    color: #FF5B2E;
+}
+._lucy_blog_inner_area{
+    position: relative;
+    background: #90CCFF;
+    padding: 24px 36px;
+    border-radius: 24px 24px 0;
+    min-height: 362px;
+    margin: 0 0 28px 0;
+}
+._area{
+    background: #FF997E;
+}
+._area_1{
+    background: #5BD6E2;
+}
+._lucy_blog_date{
+    font-family: Sora;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+._lucy_blog_image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+._lucy_blog_img{
+    max-width: 322px;
+}
+._lucy_inner_wrap_title{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 84%;
+    line-height: 1.4;
+    color: #000958;
+}
+._lucy_inner_wrap_para{
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #656689;
+    max-width: 86%;
+    margin: 0 0 30px 0;
+}
+/* Lucy Blog Section End */
+/* Lucy Footer Section Start */
+._lucy_footer_wrapper{
+    padding: 70px 0;
+}
+._lucy_footer_left{
+    position: relative;
+    z-index: 1;
+}
+._lucy_footer_left::before{
+    content: "";
+    position: absolute;
+    right: -12px;
+    top: -130px;
+    width: 200%;
+    height: 210%;
+    background: #FFF6ED;
+    z-index: -1;
+}
+._lucy_footer_image{
+    margin: 0 0 34px 0;
+}
+._lucy_footer_form{
+    position: relative;
+    margin: 0 0 58px 0;
+}
+._lucy_footer_input{
+    padding: 10px 55px 10px 20px;
+    outline: none;
+    border: none;
+    background: #FFFFFF;
+    opacity: 0.6;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    box-sizing: border-box;
+    border-radius: 23px;
+    width: 60%;
+    position: relative;
+}
+._lucy_footer_input::placeholder{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #656689;
+    opacity: 0.8;
+}
+._lucy_footer_input:focus{
+    outline: none !important;
+}
+._lucy_footer_button{
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 182px;
+    top: 1px;
+    padding: 16px;
+    background: #FF5B2E;
+    border-radius: 50%;
+    transition: .2s all ease;
+}
+._lucy_footer_button:focus{
+    outline: none;
+}
+._lucy_footer_button:hover{
+    box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
+}
+._lucy_footer_button span{
+    display: flex;
+    align-items: center;
+}
+._lucy_footer_left_title{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000958;
+    margin: 0 0 16px 0;
+}
+._lucy_footer_left_list{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+._lucy_footer_left_item{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+._lucy_footer_left_item:hover{
+    box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+}
+._lucy_footer_left_link{
+    transition: .2s all ease;
+}
+._lucy_footer_left_link span{
+    display: flex;
+    align-items: center;
+}
+._lucy_footer_right_box{
+    padding: 0 80px;
+}
+._lucy_footer_right_title{
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000958;
+    margin: 0 0 14px 0;
+}
+._lucy_footer_right_list{
+    padding: 0;
+    margin: 0 0 50px 0;
+}
+._lucy_footer_right_item{
+    margin: 0 0 15px 0;
+    padding: 0;
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #656689;
+}
+._lucy_footer_right_link{
+    font-family: Poppins;
+    font-size: 12px;
+    display: block;
+    line-height: 1.2;
+    color: #656689;
+    transition: .2s all ease;
+}
+._lucy_footer_right_link:hover{
+    color: #FF5B2E;
+}
+._lucy_footer_copy_para{
+    font-family: Poppins;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 0 22px;
+    color: #656689;
+    opacity: 0.5;
+}
+/* Lucy Footer Section End */
+/* Responsive CSS Start */
+@media (min-width: 1400px){
+    /* Lucy Header Section Start  */
+    ._lucy_header_wrap{
+        padding: 100px 0;
+    }
+    ._lucy_header_content{
+        margin: 0 0 0 20px;
+    }
+    ._lucy_header_title{
+        font-size: 66px;
+        max-width: 76%;
+    }
+    ._lucy_header_para{
+        font-size: 16px;
+        max-width: 61%;
+    }
+    /* Lucy Header Section End */
+    /* Lucy About Section Start  */
+    ._lucy_about_wrapper{
+        padding: 30px 0;
+    }
+    ._lucy_about_title{
+        font-size: 52px;
+        max-width: 68%;
+    }
+    ._lucy_about_para{
+        font-size: 16px;
+        max-width: 66%;
+    }
+    ._lucy_about_item{
+        margin: 0 0 37px 0;
+    }
+    ._lucy_about_link{
+        font-size: 18px;
+    }
+    /* Lucy About Section End */
+    /* Lucy Vacation Section Start */
+    ._lucy_vacation_content {
+        margin: 0 0 0 0;
+    }
+    ._lucy_vacation_title{
+        font-size: 52px;
+        max-width: 81%;
+    }
+    ._lucy_vacation_para{
+        font-size: 16px;
+        max-width: 79%;
+    }
+    ._lucy_vacation_list::after{
+        width: 95px;
+    }
+    ._lucy_vacation_item{
+        font-size: 18px;
+    }
+    ._lucy_vacation_2nd_para{
+        font-size: 14px;
+        max-width: 60%;
+    }
+    ._lucy_vacation_link{
+        font-size: 16px;
+    }
+    /* Lucy Vacation Section End */
+    /* Lucy Service Section Start */
+    ._lucy_service_para{
+        font-size: 16px;
+    }
+    ._lucy_service_title{
+        font-size: 52px;
+    }
+    ._lucy_service_content_title{
+        font-size: 22px;
+    }
+    ._lucy_service_content_para{
+        font-size: 14px;
+        max-width: 99%;
+    }
+    ._lucy_service_content_link{
+        font-size: 12px;
+    }
+    /* Lucy Service Section End */ 
+    /* Lucy Groomers Section Start */ 
+    ._lucy_groomers_para{
+        font-size: 16px;
+    }
+    ._lucy_groomers_title{
+        font-size: 52px;
+    }
+    ._lucy_groomer_post{
+        font-size: 14px;
+    }
+    ._lucy_groomer_title{
+        font-size: 22px;
+    }
+    /* Lucy Groomers Section End */ 
+    /* Lucy Choice Section Start */
+    ._lucy_choice_title{
+        font-size: 52px;
+    }
+    ._lucy_choice_para{
+        font-size: 16px;
+    }
+    ._lucy_choice_item{
+        font-size: 16px;
+    }
+    ._lucy_choice_inner_para{
+        font-size: 18px;
+    }
+    ._lucy_choice_inner_title{
+        font-size: 33px;
+    }
+    ._lucy_choice_inner_link{
+        font-size: 16px;
+    }
+    /* Lucy Choice Section End */
+    /* Lucy Review Section Start */
+    ._lucy_review_title{
+        font-size: 52px;
+    }
+    ._lucy_review_para{
+        font-size: 18px;
+        max-width: 89%;
+    }
+    ._lucy_reviewer_title {
+        font-size: 18px;
+    }
+    ._lucy_reviewer_title::before {
+        top: 9px;
+    }
+    /* Lucy Review Section End */
+    /* Lucy Blog Section Start */
+    ._lucy_blog_wrapper{
+        padding: 100px 0;
+    }
+    ._lucy_blog_title{
+        font-size: 52px;
+    }
+    ._lucy_blog_para{
+        font-size: 16px;
+        max-width: 89%;
+    }
+    ._lucy_blog_link{
+        font-size: 16px;
+    }
+    ._lucy_blog_inner_area {
+        min-height: 416px;
+    }
+    ._lucy_blog_img {
+        max-width: 380px;
+    }
+    ._lucy_inner_wrap_title{
+        font-size: 22px;
+    }
+    ._lucy_inner_wrap_para{
+        font-size: 14px;
+    }
+    /* Lucy Blog Section End */
+    /* Lucy Footer Section Start */
+    ._lucy_footer_left_title{
+        font-size: 18px;
+    }
+    ._lucy_footer_input {
+        width: 50%;
+    }
+    ._lucy_footer_button {
+        right: 264px;
+    }
+    ._lucy_footer_right_title{
+        font-size: 18px;
+    }
+    ._lucy_footer_right_link{
+        font-size: 14px;
+    }
+    /* Lucy Footer Section End */
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    /* Lucy Header Section Start  */
+    ._lucy_btn_item {
+        padding: 12px 24px;
+    }
+    ._lucy_header_image {
+        margin: 0 0 0 -45px;
+    }
+    ._lucy_header_content {
+        margin: 0 0 0 50px;
+    }
+    ._lucy_header_title {
+        font-size: 50px;
+        max-width: 87%;
+    }
+    ._lucy_header_para {
+        font-size: 12px;
+        max-width: 69%;
+    }
+    ._lucy_header_inner_link{
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+    ._lucy_header_inner_link_active span {
+        padding: 8px;
+    }
+    /* Lucy Header Section End */
+    /* Lucy About Section Start  */
+    ._lucy_about_wrapper {
+        padding: 60px 0;
+    }
+    ._lucy_about_tag {
+        font-size: 14px;
+        max-width: 16%;
+    }
+    ._lucy_about_title {
+        font-size: 36px;
+        max-width: 66%;
+    }
+    ._lucy_about_para {
+        font-size: 11px;
+        max-width: 67%;
+    }
+    ._lucy_about_link{
+        font-size: 13px;
+    }
+    ._lucy_about_link span{
+        padding: 4px 2px;
+    }
+    /* Lucy About Section End */
+    /* Lucy Vacation Section Start */
+    ._lucy_vacation_wrapper {
+        padding: 70px 0;
+    }
+    ._lucy_vacation_content {
+        margin: 0 0 0 50px;
+    }
+    ._lucy_vacation_title{
+        font-size: 36px;
+        max-width: 88%;
+    }
+    ._lucy_vacation_para{
+        font-size: 11px;
+        max-width: 85%;
+    }
+    ._lucy_vacation_list::after{
+        width: 73px;
+    }
+    ._lucy_vacation_item {
+        font-size: 12px;
+    }
+    ._lucy_vacation_2nd_para{
+        font-size: 11px;
+        max-width: 73%;
+    }
+    /* Lucy Vacation Section End */
+    /* Lucy Service Section Start */
+    ._lucy_service_para{
+        font-size: 12px;
+    }
+    ._lucy_service_title{
+        font-size: 30px;
+    }
+    ._lucy_service_content {
+        padding: 20px 18px;
+    }
+    ._lucy_service_content_title {
+        font-size: 15px;
+    }
+    ._lucy_service_content_para {
+        font-size: 10px;
+        max-width: 100%;
+    }
+    ._lucy_service_box_link {
+        padding: 15px 30px;
+    }
+    ._lucy_service_link {
+        font-size: 12px;
+    }
+    /* Lucy Service Section End */
+    /* Lucy Groomers Section Start */
+    ._lucy_groomers_para {
+        font-size: 14px;
+    }
+    ._lucy_groomers_title {
+        font-size: 36px;
+    }
+    ._lucy_groomer_title {
+        font-size: 18px;
+    }
+    ._lucy_groomers_link_box {
+        padding: 15px 30px;
+    }
+    ._lucy_groomers_link {
+        font-size: 14px;
+    }
+    /* Lucy Groomers Section End */
+    /* Lucy Choice Section Start */
+    ._lucy_choice_title {
+        font-size: 32px;
+    }
+    ._lucy_choice_para {
+        font-size: 12px;
+        max-width: 55%;
+    }
+    ._lucy_choice_item {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    ._lucy_choice_item_active {
+        padding: 15px 30px;
+    }
+    ._lucy_choice_inner_para {
+        font-size: 13px;
+    }
+    ._lucy_choice_inner_title {
+        font-size: 20px;
+    }
+    ._lucy_choice_inner_link {
+        font-size: 12px;
+    }
+    ._lucy_choice_inner_item {
+        font-size: 12px;
+    }
+    /* Lucy Choice Section End */
+    /* Lucy Review Section Start */
+    ._lucy_review_inner_wrap {
+        margin: 0 -34px;
+    }
+    ._lucy_review_title {
+        font-size: 32px;
+    }
+    ._lucy_review_para {
+        font-size: 12px;
+        max-width: 83%;
+    }
+    ._lucy_reviewer_title {
+        font-size: 13px;
+    }
+    ._lucy_reviewer_title::before {
+        top: 6px;
+    }
+    ._lucy_review_dots {
+        left: 54%;
+        transform: translateX(-54%);
+    }
+    /* Lucy Review Section End */
+    /* Lucy Blog Section Start */
+    ._lucy_blog_title {
+        font-size: 36px;
+    }
+    ._lucy_blog_para {
+        font-size: 12px;
+        max-width: 85%;
+    }
+    ._lucy_blog_link_box {
+        padding: 15px 30px;
+    }
+    ._lucy_blog_link {
+        font-size: 12px;
+    }
+    ._lucy_blog_inner_area {
+        min-height: 308px;
+    }
+    ._lucy_blog_img {
+        max-width: 264px;
+    }
+    ._lucy_inner_wrap_title {
+        font-size: 17px;
+        max-width: 86%;
+    }
+    ._lucy_inner_wrap_para {
+        font-size: 11px;
+        max-width: 95%;
+    }
+    /* Lucy Blog Section End */
+    /* Lucy Footer Section End */
+    ._lucy_footer_button {
+        right: 150px;
+    }
+    ._lucy_footer_left_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_item {
+        font-size: 11px;
+    }
+    ._lucy_footer_right_link {
+        font-size: 11px;
+    }
+    /* Lucy Footer Section Start */
+}
+@media (max-width: 991px) and (min-width: 768px){
+    /* Lucy Header Section Start  */
+    ._lucy_header_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_nav_item{
+        margin: 0 0 5px 0;
+    }
+    ._lucy_nav_link{
+        font-size: 12px;
+    }
+    ._lucy_btn_list {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    ._lucy_btn_item{
+        padding: 10px 20px;
+    }
+    ._lucy_btn_link{
+        font-size: 12px;
+    }
+    ._lucy_header_image {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    ._lucy_header_content {
+        margin: 50px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    ._lucy_header_title {
+        font-size: 36px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._lucy_header_para {
+        font-size: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._lucy_header_inner_list {
+        flex-direction: column;
+    }
+    ._lucy_header_inner_item {
+        margin: 0 0 10px 0;
+    }
+    ._lucy_header_inner_link{
+        font-size: 13px;
+        padding: 12px 20px;
+    }
+    ._lucy_header_inner_link_active span {
+        padding: 6px;
+    }
+    /* Lucy Header Section End */
+    /* Lucy About Section Start  */
+    ._lucy_about_tag {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._lucy_about_title {
+        font-size: 22px;
+        max-width: 100%;
+    }
+    ._lucy_about_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_about_link{
+        font-size: 12px;
+    }
+    ._lucy_about_link span{
+        padding: 3px 2px;
+    }
+    ._lucy_about_image {
+        display: flex;
+        justify-content: center;
+    }
+    /* Lucy About Section End */
+    /* Lucy Vacation Section Start */
+    ._lucy_vacation_wrapper{
+        padding: 50px 0;
+    }
+    ._lucy_vacation_image{
+        display: flex;
+        justify-content: center; 
+        margin: 0 0 30px 0;
+    }
+    ._lucy_vacation_content {
+        margin: 0 0 0 0;
+    }
+    ._lucy_vacation_title {
+        font-size: 22px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_list::after {
+        width: 77px;
+    }
+    ._lucy_vacation_item {
+        font-size: 13px;
+    }
+    ._lucy_vacation_2nd_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_link {
+        font-size: 12px;
+    }
+    /* Lucy Vacation Section End */
+    /* Lucy Service Section Start */
+    ._lucy_service_para{
+        font-size: 12px;
+    }
+    ._lucy_service_title{
+        font-size: 30px;
+    }
+    ._lucy_service_content_title {
+        font-size: 15px;
+    }
+    ._lucy_service_content_para {
+        max-width: 100%;
+    }
+    ._lucy_service_box_link{
+        margin: 0 0 50px 0;
+        padding: 15px 25px;
+    } 
+    ._lucy_service_link {
+        font-size: 12px;
+    }
+    /* Lucy Service Section End */
+    /* Lucy Groomers Section Start */
+    ._lucy_groomers_wrapper {
+        padding: 70px 0;
+    }
+    ._lucy_groomers_para {
+        font-size: 13px;
+    }
+    ._lucy_groomers_title {
+        font-size: 30px;
+    }
+    ._lucy_groomers_image {
+        display: flex;
+        justify-content: center;
+    }
+    ._lucy_groomer_post {
+        font-size: 11px;
+    }
+    ._lucy_groomer_title {
+        font-size: 18px;
+    }
+    ._lucy_groomers_link_box {
+        padding: 15px 25px;
+    }
+    ._lucy_groomers_link {
+        font-size: 14px;
+    }
+    /* Lucy Groomers Section End */
+    /* Lucy Choice Section Start */
+    ._lucy_choice_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_choice_title {
+        font-size: 32px;
+    }
+    ._lucy_choice_para {
+        font-size: 12px;
+        max-width: 74%;
+    }
+    ._lucy_choice_item {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    ._lucy_choice_inner_para {
+        font-size: 14px;
+    }
+    ._lucy_choice_inner_title {
+        font-size: 25px;
+    }
+    ._lucy_choice_inner_link {
+        font-size: 12px;
+    }
+    ._lucy_choice_inner_item {
+        font-size: 13px;
+    }
+    /* Lucy Choice Section End */
+    /* Lucy Review Section Start */
+    ._lucy_review_wrapper {
+        padding: 50px 0 70px 0;
+    }
+    ._lucy_review_inner_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+    ._lucy_review_title {
+        font-size: 28px;
+    }
+    ._lucy_review_para {
+        font-size: 13px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._lucy_review_dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* Lucy Review Section End */
+    /* Lucy Blog Section Start */
+    ._lucy_blog_title {
+        font-size: 30px;
+        text-align: center;
+    }
+    ._lucy_blog_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0 0 0;
+    }
+    ._lucy_blog_para {
+        font-size: 12px;
+        max-width: 82%;
+    }
+    ._lucy_blog_link_box {
+        padding: 15px 30px;
+    }
+    ._lucy_blog_link {
+        font-size: 12px;
+    }
+    /* ._lucy_blog_inner_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+    ._lucy_blog_inner_area {
+        min-height: 350px;
+    }
+    ._lucy_blog_img {
+        max-width: 302px;
+    }
+    ._lucy_inner_wrap_title {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    ._lucy_inner_wrap_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    /* Lucy Blog Section End */
+    /* Lucy Footer Section Start */
+    ._lucy_footer_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_footer_left::before {
+        right: -147px;
+        top: -51px;
+        height: 163%;
+    }
+    ._lucy_footer_input {
+        padding: 5px 55px 5px 20px;
+        width: 50%;
+    }
+    ._lucy_footer_button {
+        top: 0px;
+        right: 348px;
+        padding: 12px;
+    }
+    ._lucy_footer_left_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_box {
+        padding: 0 0;
+        margin: 150px 0 0 0;
+    }
+    ._lucy_footer_right_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_item {
+        font-size: 11px;
+    }
+    ._lucy_footer_right_link {
+        font-size: 11px;
+    }
+    ._lucy_footer_copy_para{
+        padding: 0 0;
+    }
+    /* Lucy Footer Section End */
+}
+@media (max-width: 767px) and (min-width: 576px){
+    /* Lucy Header Section Start  */
+    ._lucy_header_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_nav_item{
+        margin: 0 0 5px 0;
+    }
+    ._lucy_nav_link{
+        font-size: 12px;
+    }
+    ._lucy_btn_list {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    ._lucy_btn_item{
+        padding: 10px 20px;
+    }
+    ._lucy_btn_link{
+        font-size: 12px;
+    }
+    ._lucy_header_image {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    ._lucy_header_content {
+        margin: 50px 0 0 0;
+    }
+    ._lucy_header_title {
+        font-size: 30px;
+        max-width: 100%;
+    }
+    ._lucy_header_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_header_inner_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ._lucy_header_inner_item {
+        margin: 0 0 10px 0;
+    }
+    ._lucy_header_inner_link{
+        font-size: 12px;
+        padding: 10px 18px;
+    }
+    ._lucy_header_inner_link_active span {
+        padding: 6px;
+    }
+    /* Lucy Header Section End */
+    /* Lucy About Section Start  */
+    ._lucy_about_tag {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._lucy_about_title {
+        font-size: 22px;
+        max-width: 100%;
+    }
+    ._lucy_about_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_about_link{
+        font-size: 12px;
+    }
+    ._lucy_about_link span{
+        padding: 3px 2px;
+    }
+    ._lucy_about_image {
+        display: flex;
+        justify-content: center;
+    }
+    /* Lucy About Section End */
+    /* Lucy Vacation Section Start */
+    ._lucy_vacation_wrapper{
+        padding: 50px 0;
+    }
+    ._lucy_vacation_image{
+        display: flex;
+        justify-content: center; 
+        margin: 0 0 30px 0;
+    }
+    ._lucy_vacation_content {
+        margin: 0 0 0 0;
+    }
+    ._lucy_vacation_title {
+        font-size: 22px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_list::after {
+        width: 77px;
+    }
+    ._lucy_vacation_item {
+        font-size: 13px;
+    }
+    ._lucy_vacation_2nd_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_link {
+        font-size: 12px;
+    }
+    /* Lucy Vacation Section End */
+    /* Lucy Service Section Start */
+    ._lucy_service_para{
+        font-size: 12px;
+    }
+    ._lucy_service_title{
+        font-size: 25px;
+    }
+    ._lucy_service_content_title {
+        font-size: 15px;
+    }
+    ._lucy_service_content_para {
+        max-width: 100%;
+    }
+    ._lucy_service_box_link{
+        margin: 0 0 50px 0;
+        padding: 15px 25px;
+    } 
+    ._lucy_service_link {
+        font-size: 12px;
+    }
+    /* Lucy Service Section End */
+    /* Lucy Groomers Section Start */
+    ._lucy_groomers_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_groomers_para {
+        font-size: 12px;
+    }
+    ._lucy_groomers_title {
+        font-size: 22px;
+    }
+    ._lucy_groomers_image {
+        display: flex;
+        justify-content: center;
+    }
+    ._lucy_groomer_post {
+        font-size: 11px;
+    }
+    ._lucy_groomer_title {
+        font-size: 16px;
+    }
+    ._lucy_groomers_link_box {
+        padding: 15px 25px;
+    }
+    ._lucy_groomers_link {
+        font-size: 12px;
+    }
+    /* Lucy Groomers Section End */
+    /* Lucy Choice Section Start */
+    ._lucy_choice_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_choice_title {
+        font-size: 32px;
+    }
+    ._lucy_choice_para {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._lucy_choice_item {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    ._lucy_choice_inner_para {
+        font-size: 14px;
+    }
+    ._lucy_choice_inner_title {
+        font-size: 25px;
+    }
+    ._lucy_choice_inner_link {
+        font-size: 12px;
+    }
+    ._lucy_choice_inner_item {
+        font-size: 13px;
+    }
+    /* Lucy Choice Section End */
+    /* Lucy Review Section Start */
+    ._lucy_review_wrapper {
+        padding: 50px 0 70px 0;
+    }
+    ._lucy_review_inner_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+    ._lucy_review_title {
+        font-size: 25px;
+    }
+    ._lucy_review_para {
+        font-size: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._lucy_review_dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* Lucy Review Section End */
+    /* Lucy Blog Section Start */
+    ._lucy_blog_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_blog_title {
+        font-size: 28px;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    ._lucy_blog_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ._lucy_blog_para {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._lucy_blog_link_box {
+        padding: 15px 30px;
+    }
+    ._lucy_blog_link {
+        font-size: 12px;
+    }
+    /* ._lucy_blog_inner_wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
+    ._lucy_blog_inner_area {
+        min-height: 270px;
+    }
+    ._lucy_blog_img {
+        max-width: 216px;
+    }
+    ._lucy_inner_wrap_title {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    ._lucy_inner_wrap_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    /* Lucy Blog Section End */
+    /* Lucy Footer Section Start */
+    ._lucy_footer_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_footer_left::before {
+        right: -125px;
+        top: -51px;
+        height: 163%;
+    }
+    ._lucy_footer_input {
+        padding: 5px 55px 5px 20px;
+        width: 50%;
+    }
+    ._lucy_footer_button {
+        top: 0px;
+        right: 258px;
+        padding: 12px;
+    }
+    ._lucy_footer_left_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_box {
+        padding: 0 0;
+        margin: 150px 0 0 0;
+    }
+    ._lucy_footer_right_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_item {
+        font-size: 11px;
+    }
+    ._lucy_footer_right_link {
+        font-size: 11px;
+    }
+    ._lucy_footer_copy_para{
+        padding: 0 0;
+    }
+    /* Lucy Footer Section End */
+}
+@media (max-width: 575px){
+    /* Lucy Header Section Start  */
+    ._lucy_header_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_header_wrap {
+        padding: 50px 0 0 0;
+    }
+    ._lucy_nav_item{
+        margin: 0 0 5px 0;
+    }
+    ._lucy_nav_link{
+        font-size: 12px;
+    }
+    ._lucy_btn_list {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    ._lucy_btn_item{
+        padding: 10px 20px;
+    }
+    ._lucy_btn_link{
+        font-size: 12px;
+    }
+    ._lucy_header_image {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    ._lucy_header_content {
+        margin: 50px 0 0 0;
+    }
+    ._lucy_header_title {
+        font-size: 25px;
+        max-width: 100%;
+    }
+    ._lucy_header_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_header_inner_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ._lucy_header_inner_item {
+        margin: 0 0 10px 0;
+    }
+    ._lucy_header_inner_link{
+        font-size: 12px;
+        padding: 10px 18px;
+    }
+    ._lucy_header_inner_link_active span {
+        padding: 6px;
+    }
+    /* Lucy Header Section End */
+    /* Lucy About Section Start  */
+    ._lucy_about_wrapper {
+        padding: 30px 0;
+    }
+    ._lucy_about_tag {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._lucy_about_title {
+        font-size: 17px;
+        max-width: 100%;
+    }
+    ._lucy_about_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_about_link{
+        font-size: 12px;
+    }
+    ._lucy_about_link span{
+        padding: 3px 2px;
+    }
+    ._lucy_about_image {
+        display: flex;
+        justify-content: center;
+    }
+    /* Lucy About Section End */
+    /* Lucy Vacation Section Start */
+    ._lucy_vacation_wrapper{
+        padding: 50px 0;
+    }
+    ._lucy_vacation_image{
+        display: flex;
+        justify-content: center; 
+        margin: 0 0 30px 0;
+    }
+    ._lucy_vacation_content {
+        margin: 0 0 0 0;
+    }
+    ._lucy_vacation_title {
+        font-size: 17px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_list::after {
+        width: 77px;
+    }
+    ._lucy_vacation_item {
+        font-size: 12px;
+    }
+    ._lucy_vacation_2nd_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_vacation_link {
+        font-size: 12px;
+    }
+    /* Lucy Vacation Section End */
+    /* Lucy Service Section Start */
+    ._lucy_service_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_service_para{
+        font-size: 12px;
+    }
+    ._lucy_service_title{
+        font-size: 25px;
+    }
+    ._lucy_service_content_title {
+        font-size: 15px;
+    }
+    ._lucy_service_content_para {
+        max-width: 100%;
+    }
+    ._lucy_service_box_link{
+        margin: 0 0 50px 0;
+        padding: 15px 25px;
+    } 
+    ._lucy_service_link {
+        font-size: 12px;
+    }
+    /* Lucy Service Section End */
+    /* Lucy Groomers Section Start */
+    ._lucy_groomers_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_groomers_para {
+        font-size: 12px;
+    }
+    ._lucy_groomers_title {
+        font-size: 17px;
+    }
+    ._lucy_groomers_image {
+        display: flex;
+        justify-content: center;
+    }
+    ._lucy_groomer_post {
+        font-size: 11px;
+    }
+    ._lucy_groomer_title {
+        font-size: 15px;
+    }
+    ._lucy_groomers_link_box {
+        padding: 15px 25px;
+    }
+    ._lucy_groomers_link {
+        font-size: 12px;
+    }
+    /* Lucy Groomers Section End */
+    /* Lucy Choice Section Start */
+    ._lucy_choice_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_choice_title {
+        font-size: 30px;
+    }
+    ._lucy_choice_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    ._lucy_choice_list::before{
+        display: none;
+    }
+    ._lucy_choice_item {
+        font-size: 12px;
+        padding: 15px 30px;
+    }
+    ._lucy_choice_inner_tag {
+        font-size: 10px;
+    }
+    ._lucy_choice_inner_para {
+        font-size: 12px;
+    }
+    ._lucy_choice_inner_title {
+        font-size: 20px;
+    }
+    ._lucy_choice_inner_link {
+        font-size: 12px;
+    }
+    ._lucy_choice_inner_item {
+        font-size: 12px;
+    }
+    /* Lucy Choice Section End */
+    /* Lucy Review Section Start */
+    ._lucy_review_wrapper {
+        padding: 50px 0 70px 0;
+    }
+    ._lucy_review_inner_wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+    ._lucy_review_title {
+        font-size: 23px;
+    }
+    ._lucy_review_para {
+        font-size: 11px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._lucy_review_dots {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    /* Lucy Review Section End */
+    /* Lucy Blog Section Start */
+    ._lucy_blog_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_blog_title {
+        font-size: 25px;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    ._lucy_blog_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ._lucy_blog_para {
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._lucy_blog_link_box {
+        padding: 15px 30px;
+    }
+    ._lucy_blog_link {
+        font-size: 12px;
+    }
+    ._lucy_blog_inner_wrap{
+        text-align: center;
+    }
+    ._lucy_blog_inner_area {
+        min-height: 308px;
+    }
+    ._lucy_blog_img {
+        max-width: 278px;
+        margin: 0 auto;
+    }
+    ._lucy_blog_image {
+        right: 25%;
+    }
+    ._lucy_inner_wrap_title {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    ._lucy_inner_wrap_para {
+        font-size: 11px;
+        max-width: 100%;
+    }
+    /* Lucy Blog Section End */
+    /* Lucy Footer Section Start */
+    ._lucy_footer_wrapper {
+        padding: 50px 0;
+    }
+    ._lucy_footer_left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._lucy_footer_left::before {
+        right: -12px;
+        top: -51px;
+        height: 163%;
+    }
+    ._lucy_footer_form {
+        margin: 0 0 38px 0;
+    }
+    ._lucy_footer_input {
+        padding: 5px 55px 5px 20px;
+        width: 100%;
+    }
+    ._lucy_footer_button {
+        top: 0;
+        right: 0;
+        padding: 12px;
+    }
+    ._lucy_footer_left_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_box {
+        padding: 0 0;
+        margin: 150px 0 0 0;
+    }
+    ._lucy_footer_right_title {
+        font-size: 14px;
+    }
+    ._lucy_footer_right_item {
+        font-size: 11px;
+    }
+    ._lucy_footer_right_link {
+        font-size: 11px;
+    }
+    ._lucy_footer_copy_para{
+        padding: 0 0;
+    }
+    /* Lucy Footer Section End */
+}
+@media(max-width: 414px){
+    ._lucy_blog_image {
+        right: 0;
+    }
+}
+
+
+
+
+/* Responsive CSS End */
