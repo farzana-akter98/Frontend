@@ -132,7 +132,8 @@ img{
     font-size: 16px;
     text-decoration: underline;
     color: #000958;
-    display: block;
+    display: flex;
+    align-items: center;
     width: fit-content;
     padding: 22px 30px;
     line-height: 1.2;
@@ -164,7 +165,7 @@ img{
 /* Lucy Header Section End */
 /* Lucy About Section Start  */
 ._lucy_about_wrapper{
-    padding: 50px 0;
+    padding: 100px 0;
 }
 ._lucy_about_tag{
     font-family: Sora;
@@ -205,7 +206,7 @@ img{
 ._lucy_about_item{
     margin: 0 0 25px 0;
 }
-._lucy_about_link{
+._lucy_about_item{
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
@@ -214,19 +215,14 @@ img{
     display: block;
     width: fit-content;
 }
-._lucy_about_link span{
+._lucy_about_item span{
     background: #FF5D31;
     border-radius: 4px;
     padding: 5px 3px;
     display: inline-flex;
     align-self: center;
-    margin: 0 5px 0 0;
-}
-._lucy_about_link:hover{
-    color: #48496A;
-}
-._lucy_about_link:hover span{
     box-shadow: 0px 4px 15px -3px rgba(255, 93, 49, 0.69);
+    margin: 0 5px 0 0;
 }
 /* Lucy About Section End */
 /* Lucy Vacation Section Start */
@@ -286,10 +282,10 @@ img{
     border: 2px solid #FF5B2E;
     margin: 0 0 -12px 0;
 }
-._lucy_vacation_item span{
+._lucy_vacation_item_link span{
     margin: 0 11px 0 0;
 }
-._lucy_vacation_item{
+._lucy_vacation_item_link{
     font-family: Sora;
     font-weight: 600;
     font-size: 14px;
@@ -297,6 +293,10 @@ img{
     align-items: center;
     line-height: 1.2;
     color: #48496A;
+    transition: .2s all ease;
+}
+._lucy_vacation_item_link:hover{
+    color: #000958;
 }
 ._lucy_vacation_2nd_para{
     font-family: Poppins;
@@ -369,9 +369,15 @@ img{
     top: 0;
     width: 3px;
     height: 22px;
-    /* transform: rotate(90deg); */
     background: #FF5B2E;
     margin: 0 0 0 -10px;
+}
+._lucy_service_para_box{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 ._lucy_service_content_para{
     font-family: Poppins;
@@ -536,7 +542,6 @@ img{
 ._lucy_choice_list{
     display: flex;
     border: 1px solid #FF5B2E;
-    box-sizing: border-box;
     border-radius: 31px;
     padding: 0;
     margin: 0 0 56px 0;
@@ -548,25 +553,35 @@ img{
     top: -15px;
     right: -115px;
 }
-._lucy_choice_item{
+._lucy_choice_link{
     font-family: Poppins;
     font-weight: 500;
     font-size: 14px;
-    padding: 15px 40px;
-    line-height: 1.2;
+    line-height: 1.4;
     color: #FF5B2E;
-}
-._lucy_choice_item_active{
-    background: #FF5B2E;
-    color: #FFFFFF;
+	display: inline-block;
     padding: 15px 40px;
-    border-radius: 31px;
+	transition:.2s all ease;
+	border-radius: 31px;
+}
+._lucy_choice_link:hover{
+    background: #FF5B2E;
+	color:#fff;
+}
+._active_link {
+	background: #FF5B2E;
+	color:#fff;
 }
 ._lucy_choice_inner_wrap{
     padding: 30px 28px;
     margin: 0 0 30px 0;
     background: #FFFFFF;
     border-radius: 20px;
+    transition: .2s all ease;
+}
+._lucy_choice_inner_wrap:hover ._lucy_choice_inner_link{
+    color: #FFFFFF;
+    background: #FF5B2E;
 }
 ._lucy_choice_inner_tag{
     font-family: Poppins;
@@ -593,7 +608,6 @@ img{
 }
 ._lucy_choice_inner_link_box{
     margin: 0 0 24px 0;
-    
 }
 ._lucy_choice_inner_link{
     font-family: Poppins;
@@ -607,16 +621,6 @@ img{
     line-height: 1.2;
     color: #FF5B2E;
     transition: .2s all ease;
-}
-._lucy_choice_inner_link:hover{
-    color: #a82905;
-}
-._lucy_choice_inner_link_active{
-    color: #FFFFFF;
-    background: #FF5B2E;
-}
-._lucy_choice_inner_link_active:hover{
-    color: #dfd9d9;
 }
 ._lucy_choice_inner_list{
     padding: 0;
@@ -828,6 +832,11 @@ img{
     max-width: 84%;
     line-height: 1.4;
     color: #000958;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 ._lucy_inner_wrap_para{
     font-family: Poppins;
@@ -836,6 +845,11 @@ img{
     color: #656689;
     max-width: 86%;
     margin: 0 0 30px 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 /* Lucy Blog Section End */
 /* Lucy Footer Section Start */
@@ -850,9 +864,9 @@ img{
     content: "";
     position: absolute;
     right: -12px;
-    top: -130px;
+    top: -150px;
     width: 200%;
-    height: 210%;
+    height: 225%;
     background: #FFF6ED;
     z-index: -1;
 }
@@ -937,6 +951,9 @@ img{
 ._lucy_footer_left_link{
     transition: .2s all ease;
 }
+._lucy_footer_left_link:hover{
+    opacity: 0.8;
+}
 ._lucy_footer_left_link span{
     display: flex;
     align-items: center;
@@ -1017,7 +1034,7 @@ img{
     ._lucy_about_item{
         margin: 0 0 37px 0;
     }
-    ._lucy_about_link{
+    ._lucy_about_item{
         font-size: 18px;
     }
     /* Lucy About Section End */
@@ -1036,7 +1053,7 @@ img{
     ._lucy_vacation_list::after{
         width: 95px;
     }
-    ._lucy_vacation_item{
+    ._lucy_vacation_item_link{
         font-size: 18px;
     }
     ._lucy_vacation_2nd_para{
@@ -1139,6 +1156,7 @@ img{
     }
     ._lucy_inner_wrap_para{
         font-size: 14px;
+        -webkit-line-clamp: 2;
     }
     /* Lucy Blog Section End */
     /* Lucy Footer Section Start */
@@ -1202,10 +1220,10 @@ img{
         font-size: 11px;
         max-width: 67%;
     }
-    ._lucy_about_link{
+    ._lucy_about_item{
         font-size: 13px;
     }
-    ._lucy_about_link span{
+    ._lucy_about_item span{
         padding: 4px 2px;
     }
     /* Lucy About Section End */
@@ -1227,7 +1245,7 @@ img{
     ._lucy_vacation_list::after{
         width: 73px;
     }
-    ._lucy_vacation_item {
+    ._lucy_vacation_item_link {
         font-size: 12px;
     }
     ._lucy_vacation_2nd_para{
@@ -1284,12 +1302,8 @@ img{
         font-size: 12px;
         max-width: 55%;
     }
-    ._lucy_choice_item {
+    ._lucy_choice_link {
         font-size: 12px;
-        padding: 15px 30px;
-    }
-    ._lucy_choice_item_active {
-        padding: 15px 30px;
     }
     ._lucy_choice_inner_para {
         font-size: 13px;
@@ -1378,6 +1392,9 @@ img{
     ._lucy_header_wrapper {
         padding: 50px 0;
     }
+    ._lucy_nav{
+        margin: 20px 0 0 0;
+    }
     ._lucy_nav_item{
         margin: 0 0 5px 0;
     }
@@ -1444,10 +1461,10 @@ img{
         font-size: 11px;
         max-width: 100%;
     }
-    ._lucy_about_link{
+    ._lucy_about_item{
         font-size: 12px;
     }
-    ._lucy_about_link span{
+    ._lucy_about_item span{
         padding: 3px 2px;
     }
     ._lucy_about_image {
@@ -1478,7 +1495,7 @@ img{
     ._lucy_vacation_list::after {
         width: 77px;
     }
-    ._lucy_vacation_item {
+    ._lucy_vacation_item_link {
         font-size: 13px;
     }
     ._lucy_vacation_2nd_para {
@@ -1548,7 +1565,7 @@ img{
         font-size: 12px;
         max-width: 74%;
     }
-    ._lucy_choice_item {
+    ._lucy_choice_link {
         font-size: 12px;
         padding: 15px 30px;
     }
@@ -1673,7 +1690,10 @@ img{
 @media (max-width: 767px) and (min-width: 576px){
     /* Lucy Header Section Start  */
     ._lucy_header_wrapper {
-        padding: 50px 0;
+        padding: 70px 0;
+    }
+    ._lucy_nav{
+        margin: 16px 0 0 0;
     }
     ._lucy_nav_item{
         margin: 0 0 5px 0;
@@ -1724,6 +1744,9 @@ img{
     }
     /* Lucy Header Section End */
     /* Lucy About Section Start  */
+    ._lucy_about_wrapper{
+        padding: 70px 0;
+    }
     ._lucy_about_tag {
         font-size: 12px;
         max-width: 100%;
@@ -1736,10 +1759,10 @@ img{
         font-size: 11px;
         max-width: 100%;
     }
-    ._lucy_about_link{
+    ._lucy_about_item{
         font-size: 12px;
     }
-    ._lucy_about_link span{
+    ._lucy_about_item span{
         padding: 3px 2px;
     }
     ._lucy_about_image {
@@ -1749,7 +1772,7 @@ img{
     /* Lucy About Section End */
     /* Lucy Vacation Section Start */
     ._lucy_vacation_wrapper{
-        padding: 50px 0;
+        padding: 70px 0;
     }
     ._lucy_vacation_image{
         display: flex;
@@ -1770,7 +1793,7 @@ img{
     ._lucy_vacation_list::after {
         width: 77px;
     }
-    ._lucy_vacation_item {
+    ._lucy_vacation_item_link {
         font-size: 13px;
     }
     ._lucy_vacation_2nd_para {
@@ -1804,7 +1827,7 @@ img{
     /* Lucy Service Section End */
     /* Lucy Groomers Section Start */
     ._lucy_groomers_wrapper {
-        padding: 50px 0;
+        padding: 70px 0;
     }
     ._lucy_groomers_para {
         font-size: 12px;
@@ -1831,7 +1854,7 @@ img{
     /* Lucy Groomers Section End */
     /* Lucy Choice Section Start */
     ._lucy_choice_wrapper {
-        padding: 50px 0;
+        padding: 70px 0;
     }
     ._lucy_choice_title {
         font-size: 32px;
@@ -1840,7 +1863,7 @@ img{
         font-size: 12px;
         max-width: 100%;
     }
-    ._lucy_choice_item {
+    ._lucy_choice_link {
         font-size: 12px;
         padding: 15px 30px;
     }
@@ -1859,7 +1882,7 @@ img{
     /* Lucy Choice Section End */
     /* Lucy Review Section Start */
     ._lucy_review_wrapper {
-        padding: 50px 0 70px 0;
+        padding: 70px 0;
     }
     ._lucy_review_inner_wrap {
         display: flex;
@@ -1882,7 +1905,7 @@ img{
     /* Lucy Review Section End */
     /* Lucy Blog Section Start */
     ._lucy_blog_wrapper {
-        padding: 50px 0;
+        padding: 70px 0;
     }
     ._lucy_blog_title {
         font-size: 28px;
@@ -1928,7 +1951,7 @@ img{
     /* Lucy Blog Section End */
     /* Lucy Footer Section Start */
     ._lucy_footer_wrapper {
-        padding: 50px 0;
+        padding: 70px 0;
     }
     ._lucy_footer_left::before {
         right: -125px;
@@ -1972,6 +1995,9 @@ img{
     }
     ._lucy_header_wrap {
         padding: 50px 0 0 0;
+    }
+    ._lucy_nav{
+        margin: 16px 0 0 0;
     }
     ._lucy_nav_item{
         margin: 0 0 5px 0;
@@ -2023,7 +2049,7 @@ img{
     /* Lucy Header Section End */
     /* Lucy About Section Start  */
     ._lucy_about_wrapper {
-        padding: 30px 0;
+        padding: 50px 0;
     }
     ._lucy_about_tag {
         font-size: 12px;
@@ -2037,10 +2063,10 @@ img{
         font-size: 11px;
         max-width: 100%;
     }
-    ._lucy_about_link{
+    ._lucy_about_item{
         font-size: 12px;
     }
-    ._lucy_about_link span{
+    ._lucy_about_item span{
         padding: 3px 2px;
     }
     ._lucy_about_image {
@@ -2071,7 +2097,7 @@ img{
     ._lucy_vacation_list::after {
         width: 77px;
     }
-    ._lucy_vacation_item {
+    ._lucy_vacation_item_link {
         font-size: 12px;
     }
     ._lucy_vacation_2nd_para {
@@ -2147,7 +2173,7 @@ img{
     ._lucy_choice_list::before{
         display: none;
     }
-    ._lucy_choice_item {
+    ._lucy_choice_link {
         font-size: 12px;
         padding: 15px 30px;
     }
@@ -2185,6 +2211,45 @@ img{
         max-width: 100%;
         text-align: center;
     }
+    ._lucy_review_slider_btn_group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ._lucy_review_slider_btn_group .glide__arrows{
+        display: flex;
+        align-items: center;
+    }
+    ._prev_btn {
+        bottom: -100px;
+        left: 45%;
+        transform: translateX(-45%);
+    }
+    ._next_btn {
+        bottom: -100px;
+        right: 35%;
+        transform: translateX(-35%);
+    }
+    /*
+    ._next_btn {
+        bottom: -100px;
+        right: 0;
+    } */
+    /* ._prev_btn{
+        position: absolute;
+        bottom: 184px;
+        width: 54px;
+        height: 54px;
+    } */
+    /* ._prev_btn {
+        position: relative;
+        bottom: -100px;
+        left: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-50%);
+    } */
     ._lucy_review_dots {
         left: 50%;
         transform: translateX(-50%);
@@ -2192,7 +2257,7 @@ img{
     /* Lucy Review Section End */
     /* Lucy Blog Section Start */
     ._lucy_blog_wrapper {
-        padding: 50px 0;
+        padding: 70px 0 30px 0;
     }
     ._lucy_blog_title {
         font-size: 25px;
@@ -2208,6 +2273,7 @@ img{
     ._lucy_blog_para {
         font-size: 12px;
         max-width: 100%;
+        text-align: center;
     }
     ._lucy_blog_link_box {
         padding: 15px 30px;
@@ -2287,6 +2353,23 @@ img{
 @media(max-width: 414px){
     ._lucy_blog_image {
         right: 0;
+    }
+    ._lucy_review_slider_btn_group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ._lucy_review_slider_btn_group .glide__arrows{
+        display: flex;
+        align-items: center;
+    }
+    ._prev_btn {
+        bottom: -100px;
+        left: 100px;
+    }
+    ._next_btn {
+        bottom: -100px;
+        right: 70px;
     }
 }
 
