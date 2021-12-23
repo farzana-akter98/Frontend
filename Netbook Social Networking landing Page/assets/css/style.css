@@ -1,0 +1,2223 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    transition: .2s all ease;
+}
+ul{
+    list-style: none;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Netbook Header Section Start */
+._netbook_header_wrapper{
+    padding: 30px 0 100px 0;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+/* ._netbook_nav_wrap{
+    border-bottom: 1px solid #217BF4;
+} */
+._netbook_logo_image{
+    height: 34px;
+}
+._netbook_toggler:focus{
+    box-shadow: none;
+}
+._netbook_nav_list{
+    margin: 0 0 0 56px;
+}
+._netbook_nav_item{
+    margin: 0 16px;
+}
+._netbook_nav_link{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #656464 !important;
+}
+._netbook_nav_link:hover{
+    color: #2B2B39 !important; 
+}
+._netbook_nav_link_active{
+    color: #2B2B39 !important;
+}
+._netbook_btn_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+._netbook_input_box_before{
+    position: relative;
+}
+._netbook_input_box_before::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    height: 1px;
+    width: 130px;
+    background: #E5E5E5;
+    /* transform: translateX(20%); */
+    /* border-bottom: 1px solid #E5E5E5; */
+}
+._netbook_search_box{
+    position: relative;
+    margin: 0 15px 0 0;
+}
+._netbook_search_span{
+    position: absolute;
+}
+._netbook_search_input{
+    outline: none;
+    border: none;
+    /* border-bottom: 1px solid #E5E5E5; */
+    /* text-align: center; */
+    width: 60%;
+    background: transparent;
+    padding: 0 0 0 16px;
+}
+._netbook_search_input::placeholder{
+    font-family: Inter;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #686868;
+    padding: 0 16px;
+}
+._netbook_btn_link{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 12px;
+    display: block;
+    width: fit-content;
+    line-height: 1.2;
+    padding: 18px 44px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #217BF4;
+    border-radius: 14px;
+}
+._netbook_btn_link:hover{
+    color: #FFFFFF;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+._netbook_header_wrap{
+    padding: 40px 0 0 0;
+}
+._netbook_header_btn{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 12px 30px;
+    line-height: 1.2;
+    outline: none;
+    border: none;
+    text-align: center;
+    border-radius: 8px;
+    z-index: 1;
+    background: rgb(33, 123, 244, 0.1);
+    color: #217BF4;
+    margin: 0 0 20px 0;
+}
+._netbook_header_btn:focus{
+    outline: none;
+}
+._netbook_header_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 56px;
+    max-width: 92%;
+    line-height: 1.2;
+    color: #0A093D;
+    margin: 0 0 18px 0;
+}
+._netbook_header_para{
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #656464;
+    max-width: 89%;
+    margin: 0 0 42px 0;
+}
+._netbook_header_wrap_list{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+}
+._netbook_header_wrap_item{
+    margin: 0 18px 0 0;
+}
+._netbook_header_wrap_link_active{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 1.2;
+    display: block;
+    width: fit-content;
+    padding: 18px 42px;
+    text-align: center;
+    background: #217BF4;
+    border-radius: 14px;
+    color: #FFFFFF;
+}
+._netbook_header_wrap_link_active:hover{
+    color: #FFFFFF;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+._netbook_header_wrap_link{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    display: block;
+    width: fit-content;
+    padding: 18px 42px;
+    line-height: 1.2;
+    text-align: center;
+    border: 1px solid rgb(33, 123, 244, 0.5);
+    box-sizing: border-box;
+    border-radius: 14px;
+    color: #217BF4;
+    background: #FFFFFF;
+}
+._netbook_header_wrap_link:hover{
+    color: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+._netbook_header_img{
+    max-width: 586px;
+}
+/* Netbook Header Section End */
+/* Netbook About Section Start */
+._netbook_about_wrapper{
+    padding: 100px 0;
+}
+._netbook_about_tag{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #217BF4;
+    margin: 0 0 10px 0;
+}
+._netbook_about_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.4;
+    max-width: 68%;
+    color: #0A093D;
+    margin: 0 0 16px 0;
+}
+._netbook_about_para{
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 73%;
+    line-height: 1.6;
+    color: #656464;
+    margin: 0 0 36px 0;
+}
+._netbook_about_list{
+    padding: 0;
+    margin: 0;
+}
+._netbook_about_item{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0 0 16px 0;
+    color: #171648;
+    display: flex;
+    align-items: center;
+}
+._netbook_about_item span{
+    margin: 0 10px 0 0;
+}
+._netbook_about_card_link{
+    transition: .2s all ease;
+}
+._netbook_about_card_link:hover ._netbook_about_card::before{
+    visibility: visible;
+}
+._netbook_about_card{
+    position: relative;
+    transition: .2s all ease;
+}
+._netbook_about_card::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 270px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(43, 43, 57, 0.48), rgba(43, 43, 57, 0.48));
+    border-radius: 15px;
+    visibility: hidden;
+}
+._netbook_about_inner_icon_box{
+    position: relative;
+    visibility: hidden;
+}
+._netbook_about_card_link:hover ._netbook_about_inner_icon_box{
+    visibility: visible;
+} 
+._netbook_about_inner_image_icon{
+    outline: none;
+    border: none;
+    background: transparent;
+    position: absolute;
+    bottom: 350%;
+    left: 50%;
+    transform: translate(-50%, -350%);
+}
+._netbook_about_inner_image_icon:focus{
+    outline: none;
+}
+._netbook_about_left_img{
+    max-width: 270px;
+    border-radius: 14px;
+}
+._netbook_about_right_image{
+    margin: 0 0 30px 0;
+}
+._netbook_about_left_img{
+    max-width: 265px;
+    border-radius: 14px;
+}
+._translate{
+    transform: translate(-50%, -280%);
+}
+/* ._netbook_about_inner_image_left{
+    position: relative;
+}
+._netbook_about_inner_left_img{
+    max-width: 270px;
+    border-radius: 14px;
+}
+._netbook_about_inner_image_left::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: 270px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(43, 43, 57, 0.48), rgba(43, 43, 57, 0.48));
+    border-radius: 15px;
+}
+._netbook_about_inner_icon_box{
+    position: relative;
+}
+._netbook_about_inner_image_icon{
+    outline: none;
+    border: none;
+    background: transparent;
+    position: absolute;
+    bottom: 350%;
+    left: 50%;
+    transform: translate(-50%, -350%);
+}
+._netbook_about_inner_image_icon:focus{
+    outline: none;
+}
+._netbook_about_inner_image_right{
+    margin: 0 0 30px 0;
+}
+._netbook_about_inner_right_img{
+    max-width: 265px;
+    border-radius: 14px;
+} */
+/* Netbook About Section End */
+/* Netbook Achievement Section Start */
+._netbook_achievement_wrapper{
+    padding: 100px 0;
+}
+._netbook_achievement_card{
+    background: #FFFFFF;
+    border-radius: 14px;
+    border: 1px solid #B9B9B9;
+    padding: 42px 44px;
+    margin: 0 0 30px 0;
+    transition: .2s all ease;
+}
+._netbook_achievement_card:hover{
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border: 1px solid transparent;
+}
+._netbook_avhievement_card_title span{
+    margin: 0 10px 0 0;
+}
+._netbook_avhievement_card_title{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 1.2;
+    color: #0A093D;
+    margin: 0 0 39px 0;
+}
+._netbook_achievement_card_para {
+    font-family: Inter;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #8C8C8C;
+    max-width: 100%;
+}
+._netbook_achievement_work{
+    display: flex;
+    align-items: center;
+    margin: 0 0 43px 0;
+}
+._netbook_achievement_work_image{
+    margin: 0 16px 0 0;
+}
+._netbook_achievement_work_img{
+    max-width: 60px;
+}
+._netbook_achievement_work_para{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #5D5B70;
+    margin: 0;
+}
+._netbook_achievement_work_para span{
+    color: #217BF4;
+}
+._netbook_achievement_card_link_box{
+    margin: 0 0 20px 0;
+}
+._netbook_achievement_card_link{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    width: fit-content;
+    line-height: 1.2;
+    color: #4A4A56;
+}
+._netbook_achievement_card_link span{
+    margin: 0 0 0 8px;
+}
+._netbook_achievement_card:hover ._netbook_achievement_card_link{
+    color: #217BF4;
+} 
+._netbook_achievement_card:hover ._netbook_achievement_card_link path{
+    stroke: #217BF4;
+}
+._netbook_achievement_text_wrap {
+    margin: 0 0 0 63px;
+}
+._netbook_achievement_tag{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #217BF4;
+    margin: 0 0 10px 0;
+}
+._netbook_achievement_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    max-width: 90%;
+    line-height: 1.4;
+    color: #0A093D;
+    margin: 0 0 18px 0;
+}
+._netbook_achievement_para{
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 93%;
+    line-height: 1.6;
+    color: #656464;
+    margin: 0 0 38px 0;
+}
+._netbook_achievement_link_box {
+    margin: 0 0 20px 0;
+}
+._netbook_achievement_link{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 22px 38px;
+    display: block;
+    width: fit-content;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    background: #217BF4;
+    border-radius: 14px;
+}
+._netbook_achievement_link:hover{
+    color: #FFFFFF;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+}
+._netbook_achievement_link span{
+    margin: 0 0 0 8px;
+}
+/* Netbook Achievement Section End */
+/* Netbook Community Section Start */
+._netbook_community_wrapper{
+    padding: 40px 0 100px 0;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+._netbook_community_wrap{
+    padding: 60px 0;
+    text-align: center;
+}
+._netbook_community_tag{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #217BF4;
+    margin: 0 0 9px 0;
+}
+._netbook_community_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: #0A093D;
+    margin: 0 0 19px 0;
+}
+._netbook_community_para{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #656464;
+}
+._netbook_community_content_wrap{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 40px;
+    transition: .2s all ease;
+    margin: 0 0 44px 0;
+}
+._netbook_community_content_wrap:hover{
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+}
+._netbook_community_content_wrap span{
+    margin: 0 36px 0 0;
+    width: 66px;
+    height: 66px;
+    box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+    border-radius: 25px;
+}
+._netbook_community_content_title{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #2F2C4A;
+    margin: 0 0 14px 0;
+}
+._netbook_community_content_para{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #656464;
+    max-width: 80%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/* Netbook Community Section End */
+/* Netbook Members Section Start */
+._netbook_members_wrapper{
+    padding: 40px 0 100px 0;
+}
+._netbook_members_wrap{
+    padding: 60px 0;
+    text-align: center;
+}
+._netbook_members_tag{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #217BF4;
+    margin: 0 0 10px 0;
+}
+._netbook_members_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    color: #0A093D;
+    margin: 0 0 18px 0;
+}
+._netbook_members_para{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: #656464;
+    margin: 0 0 38px 0;
+}
+._netbook_members_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+._netbook_members_list_box{
+    background: rgb(33, 123, 244, 0.06);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+}
+._netbook_members_item{
+    padding: 20px 0;
+    margin: 0 5px 0 0;
+}
+._netbook_members_item:last-child{
+    margin: 0 0 0 0;
+}
+._netbook_members_link{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 20px 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    border-radius: 14px;
+    color: #2F2C4A;
+    transition: .2s all ease;
+}
+._netbook_members_link:hover{
+    color: #FFFFFF;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+}
+._netbook_members_link_active{
+    color: #FFFFFF;
+    background: #217BF4;
+    border-radius: 14px;
+}
+._netbook_members_card_content{
+    padding: 60px 0 0 0;
+}
+._netbook_members_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    box-sizing: border-box;
+    border-radius: 14px;
+    padding: 44px 52px;
+    margin: 0 0 40px 0;
+    transition: .2s all ease;
+}
+._netbook_members_card:hover{
+    border: 2px solid transparent;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+}
+._netbook_members_image_box{
+    margin: 0 0 29px 0;
+    position: relative;
+    z-index: 1;
+}
+._netbook_members_image_box::before{
+    content: url(../images/members_before.svg);
+    position: absolute;
+    top: -14px;
+    left: -14px;
+    max-width: 166px;
+    z-index: -1;
+}
+._netbook_members_image_box::after{
+    content: url(../images/members_after.svg);
+    position: absolute;
+    bottom: -22px;
+    right: 58px;
+    z-index: 1;
+}
+._netbook_members_img{
+    max-width: 142px;
+}
+._netbook_members_card_title{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+    color: #2F2C4A;
+    margin: 0 0 14px 0;
+}
+._netbook_members_card_tag{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #656464;
+}
+._netbook_members_link:focus{
+    outline: none !important;
+}
+._netbook_members_link_active:focus{
+    outline: none !important;
+}
+/* Netbook Members Section End */
+/* Netbook Application Section Start */
+._netbook_application_wrapper{
+    padding: 0 0 0 0;
+    background: #E5F0FD;
+}
+._netbook_application_content{
+    padding: 50px 0 0 0;
+}
+._netbook_application_tag{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #217BF4;
+    margin: 0 0 10px 0;
+}
+._netbook_application_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    max-width: 76%;
+    line-height: 1.4;
+    color: #0A093D;
+    margin: 0 0 18px 0;
+}
+._netbook_application_para{
+    font-family: Inter;
+    font-size: 16px;
+    max-width: 71%;
+    line-height: 1.6;
+    color: #656464;
+    margin: 0 0 36px 0;
+}
+._netbook_application_list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+._netbook_application_item{
+    margin: 0 20px 0 0;
+}
+._netbook_application_img{
+    max-width: 145px;
+}
+._netbook_application_img:hover {
+    box-shadow: 0px 0px 22px 0px #B2BCD036;
+}
+._netbook_application_image{
+    position: relative;
+    z-index: 1;
+}
+._netbook_application_mobile_img{
+    margin: 0 auto;
+}
+/* Netbook Application Section End */
+/* Netbook Blog Section Start */
+._netbook_blog_wrapper{
+    padding: 100px 0;
+}
+._netbook_blog_wrap{
+    text-align: center;
+}
+.netbook_blog_tag{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #217BF4;
+    margin: 0 0 10px 0;
+}
+._netbook_blog_title{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.4;
+    text-align: center;
+    color: #0A093D;
+    margin: 0 0 80px 0;
+}
+._netbook_blog_content_wrap{
+    position: relative;
+    z-index: 1;
+}
+._netbook_blog_content_wrap::before{
+    content: url(../images/blog_wrap_before.svg);
+    position: absolute;
+    left: -61px;
+    top: -31px;
+    z-index: -1;
+}
+._netbook_blog_content_wrap::after{
+    content: url(../images/blog_wrap_after.svg);
+    position: absolute;
+    right: -82px;
+    top: 91px;
+    z-index: -1;
+}
+._netbook_blog_content{
+    margin: 0 0 40px 0;
+}
+._netbook_blog_content_image{
+    margin: 0 0 30px 0;
+}
+._netbook_blog_content_img{
+    max-width: 347px;
+    border-radius: 20px;
+}
+._netbook_blog_content_txt{
+    display: flex;
+}
+._netbook_blog_content_span{
+    margin: 0 14px 0 0;
+}
+._netbook_blog_content_value{
+    display: flex;
+    flex-direction: column;
+}
+._netbook_blog_content_title{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    max-width: 79%;
+    line-height: 1.4;
+    color: #2F2C4A;
+    margin: 0 0 24px 0;
+}
+._netbook_blog_content_link{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.2;
+    display: block;
+    width: fit-content;
+    text-align: center;
+    color: #656464;
+    transition: .2s all ease;
+}
+._netbook_blog_content_link:hover{
+    color: #217BF4;
+}
+._netbook_blog_content_link span{
+    margin: 0 0 0 8px;
+}
+._netbook_blog_content_link:hover path{
+    stroke: #217BF4;
+}
+/* Netbook Blog Section End */
+/* Netbook Footer Section Start */
+._netbook_footer_wrapper{
+    padding: 100px 0;
+    background: #2B2B39;
+}
+._netbook_footer_wrap{
+    margin: 0 0 40px 0;
+}
+._netbook_footer_title{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #FFFFFF;
+    margin: 0 0 22px 0;
+}
+._netbook_footer_list{
+    padding: 0;
+}
+._netbook_footer_item{
+    margin: 0 0 20px 0;
+}
+._netbook_footer_link{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.0125em;
+    color: #E7E7E7;
+    display: block;
+    width: fit-content;
+    transition: .2s all ease;
+}
+._netbook_footer_link:hover{
+    color: #FFAF2E !important;
+}
+._netbook_footer_subscribe_title{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 45%;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin: 0 0 18px 0;
+}
+._netbook_footer_subscibe_para{
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #E7E7E7;
+    max-width: 79%;
+    margin: 0 0 32px 0;
+}
+._netbook_footer_form_box{
+    position: relative;
+}
+._netbook_footer_subscribe_form{
+    position: relative;
+    padding: 18px 24px;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+._netbook_footer_subscribe_input{
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 60%;
+}
+._netbook_footer_subscribe_input:focus{
+    color: #E7E7E7;
+}
+._netbook_footer_subscribe_input::placeholder{
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.0125em;
+    color: #717179 !important;
+}
+._netbook_footer_btn_box{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+._netbook_footer_subscribe_link{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: #2B2B39;
+    padding: 20px 24px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+}
+._netbook_footer_subscribe_link:focus{
+    outline: none;
+}
+/* Netbook Footer Section End */
+/* Netbook EndFooter Section Start */
+._netbook_end_footer_wrapper{
+    background: #20202D;
+    padding: 30px 0;
+}
+._netbook_end_footer_para{
+    font-family: Inter;
+    margin: auto 0;
+    display: contents;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #F6F6F6;
+}
+._netbook_footer_logo_image{
+    height: 34px;
+}
+._netbook_footer_logo{
+    max-width: 143px;
+}
+._netbook_end_footer_list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+._netbook_end_footer_item{
+    display: flex;
+    align-items: center;
+    margin: 0 8px 0 0;
+}
+._netbook_end_footer_link{
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 7px;
+    display: flex;
+    display: block;
+    width: fit-content;
+    align-items: center;
+    transition: .2s all ease;
+}
+._netbook_end_footer_link:hover path{
+    opacity: 0.86;
+}
+/* Netbook EndFooter Section End */
+/* Responsive CSS Start */
+@media (min-width: 1400px){
+    /* Netbook Header Section Start */
+    ._netbook_header_title {
+        max-width: 79%;
+    }
+    ._netbook_header_para {
+        max-width: 79%;
+    }
+    /* Netbook Header Section End */
+    /* Netbook About Section Start */
+    ._netbook_about_title {
+        max-width: 58%;
+    }
+    ._netbook_about_para {
+        max-width: 63%;
+    }
+    ._netbook_about_card::before {
+        max-width: 265px;
+    }
+    
+    ._netbook_about_inner_image_icon {
+        bottom: 360%;
+        left: 45%;
+        transform: translate(-45%, -360%);
+    }
+    ._netbook_about_inner_image_icon._translate {
+        transform: translate(-50%, -290%);
+    }
+    /* Netbook About Section End */
+    /* Netbook Achievement Section Start */
+    ._netbook_achievement_card_para{
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 100%;
+   }
+   ._netbook_achievement_text_wrap {
+    margin: 0 0 0 65px;
+    }
+    ._netbook_achievement_title {
+        max-width: 76%;
+    }
+    ._netbook_achievement_para {
+        max-width: 86%;
+        line-height: 1.8;
+    }
+    /* Netbook Achievement Section End */
+    /* Netbook Community Section Start */
+    ._netbook_community_content_para {
+        font-size: 16px;
+        max-width: 60%;
+    }
+    /* Netbook Community Section End */
+    /* Netbook Members Section Start */
+    ._netbook_members_card_title{
+        font-size: 24px;
+    }
+    /* Netbook Members Section End */
+    /* Netbook Application Section Start */
+    ._netbook_application_title {
+        max-width: 65%;
+    }
+    ._netbook_application_para {
+        max-width: 61%;
+    }
+    /* Netbook Application Section End */
+    /* Netbook Blog Section Start */
+    ._netbook_blog_content_wrap::after {
+        right: -22px;
+    }
+    /* Netbook Blog Section End */
+    /* Netbook Footer Section Start */
+    ._netbook_footer_subscribe_title {
+        max-width: 38%;
+    }
+    ._netbook_footer_subscibe_para {
+        max-width: 78%;
+    }
+    ._netbook_footer_subscribe_input{
+        width: 65%;
+    }
+    /* Netbook Footer Section End */
+}
+@media (max-width: 1365px) and (min-width: 1200px){
+    /* Blog Section Start */
+    ._netbook_blog_content_wrap::after {
+        right: -42px;
+        top: 91px;
+    }
+    /* Blog Section End */
+}
+@media (max-width: 1199px) and (min-width: 992px){
+    /* Netbook Header Section Start */
+    ._netbook_nav_list {
+        margin: 0 0 0 62px;
+    }
+    ._netbook_search_box {
+        margin: 0 10px 0 0;
+    }
+    ._netbook_nav_link{
+        font-size: 13px;
+    }
+    ._netbook_btn_link {
+        padding: 18px 34px;
+    }
+    ._netbook_header_title {
+        font-size: 46px;
+        max-width: 90%;
+    }
+    ._netbook_header_para {
+        font-size: 15px;
+    }
+    ._netbook_header_wrap_link_active {
+        font-size: 13px;
+        padding: 18px 32px;
+    }
+    ._netbook_header_wrap_link{
+        font-size: 13px;
+        padding: 18px 32px;
+    }
+    /* Netbook Header Section End */
+    /* Netbook About Section Start */
+    ._netbook_about_tag {
+        font-size: 15px;
+    }
+    ._netbook_about_title {
+        font-size: 30px;
+        max-width: 67%;
+    }
+    ._netbook_about_para {
+        font-size: 14px;
+        max-width: 77%;
+    }
+    ._netbook_about_item {
+        font-size: 14px;
+    }
+    ._netbook_about_inner_image_left::before {
+        border-radius: 10px;
+    }
+    ._netbook_about_inner_image_icon {
+        bottom: 270%;
+        left: 50%;
+        transform: translate(-50%, -270%);
+    }
+    ._netbook_about_inner_image_icon._translate {
+        transform: translate(-40%, -240%);
+    }
+    /* Netbook About Section End */
+    /* Netbook Achievement Section Start */
+    ._netbook_achievement_card {
+        padding: 32px 34px;
+    }
+    ._netbook_avhievement_card_title {
+        font-size: 15px;
+    }
+    ._netbook_achievement_work {
+        margin: 0 0 23px 0;
+    }
+    ._netbook_achievement_work_para {
+        font-size: 13px;
+    }
+    ._netbook_achievement_card_link {
+        font-size: 14px;
+    }
+    ._netbook_achievement_text_wrap {
+        margin: 0 0 0 53px;
+    }
+    ._netbook_achievement_tag {
+        font-size: 14px;
+    }
+    ._netbook_achievement_title {
+        font-size: 26px;
+        max-width: 81%;
+    }
+    ._netbook_achievement_para {
+        font-size: 14px;
+        max-width: 98%;
+    }
+    ._netbook_achievement_link {
+        padding: 18px 30px;
+    }
+    /* Netbook Achievement Section End */
+    /* Netbook Community Section Start */
+    ._netbook_community_tag {
+        font-size: 16px;
+    }
+    ._netbook_community_title {
+        font-size: 30px;
+    }
+    ._netbook_community_para {
+        font-size: 14px;
+    }
+    ._netbook_community_content_wrap {
+        padding: 30px;
+    }
+    ._netbook_community_content_wrap span {
+        width: 56px;
+        height: 56px;
+    }
+    ._netbook_community_content_wrap svg{
+        width: 56px;
+        height: 56px;
+    }
+    ._netbook_community_content_title {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+    }
+    ._netbook_community_content_para {
+        font-size: 13px;
+        max-width: 90%;
+    }
+    /* Netbook Community Section End */
+    /* Netbook Members Section Start */
+    ._netbook_members_wrap {
+        padding: 50px 0;
+    }
+    ._netbook_members_tag {
+        font-size: 16px;
+    }
+    ._netbook_members_title {
+        font-size: 30px;
+    }
+    ._netbook_members_para {
+        font-size: 14px;
+    }
+    ._netbook_members_item {
+        padding: 15px 0;
+    }
+    ._netbook_members_link {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+    ._netbook_members_card {
+        padding: 34px 32px;
+    }
+    ._netbook_members_card_title {
+        font-size: 17px;
+    }
+    ._netbook_members_card_tag {
+        font-size: 14px;
+    }
+    /* Netbook Members Section End */
+    /* Netbook Application Section Start */
+    ._netbook_application_tag {
+        font-size: 16px;
+    }
+    ._netbook_application_title {
+        font-size: 28px;
+    }
+    ._netbook_application_para {
+        font-size: 14px;
+        max-width: 74%;
+    }
+    /* Netbook Application Section End */
+    /* Netbook Blog Section Start */
+    ._netbook_blog_content_wrap::after {
+        right: -91px;
+        top: 73px;
+    }
+    .netbook_blog_tag {
+        font-size: 16px;
+    }
+    ._netbook_blog_title {
+        font-size: 30px;
+    }
+    ._netbook_blog_content_title {
+        font-size: 16px;
+        margin: 0 0 18px 0;
+    }
+    ._netbook_blog_content_link {
+        font-size: 14px;
+    }
+    /* Netbook Blog Section End */
+    /* Netbook Footer Section Start */
+    ._netbook_footer_title {
+        font-size: 16px;
+    }
+    ._netbook_footer_link {
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_title {
+        font-size: 16px;
+        max-width: 43%;
+    }
+    ._netbook_footer_subscibe_para {
+        font-size: 14px;
+        max-width: 83%;
+    }
+    ._netbook_footer_subscribe_form {
+        padding: 16px 24px;
+    }
+    ._netbook_footer_subscribe_input{
+        width: 55%;
+    }
+    ._netbook_footer_subscribe_input::placeholder{
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_link {
+        font-size: 14px;
+        padding: 19px 24px;
+    }
+    /* Netbook Footer Section End */
+}
+@media (max-width: 991px) and (min-width: 768px){
+    /* Netbook Header Section Start */
+    ._netbook_nav_list{
+        margin: 16px 0 0 0;
+    }
+    ._netbook_nav_item{
+        margin: 0 0;
+    }
+    ._netbook_nav_link{
+        font-size: 12px;
+    }
+    ._netbook_btn_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ._netbook_search_box {
+        margin: 0 0 20px 0;
+    }
+    ._netbook_search_input {
+        text-align: start;
+        width: 100%;
+    }
+    ._netbook_btn_link {
+        padding: 14px 28px;
+    }
+    ._netbook_header_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+    ._netbook_header_title {
+        font-size: 36px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_header_para {
+        font-size: 14px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_header_wrap_link_active {
+        font-size: 13px;
+        padding: 18px 32px;
+    }
+    ._netbook_header_wrap_link{
+        font-size: 13px;
+        padding: 18px 32px;
+    }
+    /* Netbook Header Section end */
+    /* Netbook About Section Start */
+    ._netbook_about_wrap{
+        margin: 0 0 50px 0;
+    }
+    ._netbook_about_tag {
+        font-size: 15px;
+    }
+    ._netbook_about_title {
+        font-size: 26px;
+        max-width: 100%;
+    }
+    ._netbook_about_para {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    ._netbook_about_item {
+        font-size: 14px;
+    }
+    ._netbook_about_card::before {
+        max-width: 265px;
+    }
+    ._netbook_about_inner_image_icon {
+        bottom: 360%;
+        left: 40%;
+        transform: translate(-40%, -360%);
+    }
+    ._netbook_about_inner_image_icon._translate {
+        transform: translate(-50%, -300%);
+    }
+    /* Netbook About Section end */
+    /* Netbook Achievement Section Start */
+    ._netbook_achievement_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 32px 34px;
+    }
+    ._netbook_avhievement_card_title {
+        font-size: 16px;
+        margin: 0 0 29px 0;
+    }
+    ._netbook_achievement_card_para {
+        text-align: center;
+    }
+    ._netbook_achievement_work {
+        margin: 0 0 23px 0;
+    }
+    ._netbook_achievement_work_para {
+        font-size: 14px;
+    }
+    ._netbook_achievement_card_link {
+        font-size: 14px;
+    }
+    ._netbook_achievement_text_wrap {
+        margin: 20px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ._netbook_achievement_tag {
+        font-size: 16px;
+    }
+    ._netbook_achievement_title {
+        font-size: 26px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_achievement_para {
+        font-size: 14px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._netbook_achievement_link {
+        padding: 18px 28px;
+    }
+    /* Netbook Achievement Section end */
+    /* Netbook Community Section Start */
+    ._netbook_community_wrap {
+        padding: 30px 0;
+    }
+    ._netbook_community_tag {
+        font-size: 16px;
+    }
+    ._netbook_community_title {
+        font-size: 26px;
+    }
+    ._netbook_community_content_wrap {
+        padding: 30px;
+        margin: 0 0 34px 0;
+    }
+    ._netbook_community_content_wrap span {
+        width: 56px;
+        height: 56px;
+    }
+    ._netbook_community_content_wrap svg{
+        width: 56px;
+        height: 56px;
+    }
+    ._netbook_community_content_title {
+        font-size: 18px;
+    }
+    ._netbook_community_para {
+        font-size: 14px;
+    }
+    /* Netbook Community Section end */
+    /* Netbook Members Section Start */
+    ._netbook_members_wrap {
+        padding: 40px 0;
+    }
+    ._netbook_members_tag {
+        font-size: 15px;
+    }
+    ._netbook_members_title {
+        font-size: 28px;
+    }
+    ._netbook_members_para {
+        font-size: 14px;
+    }
+    ._netbook_members_item {
+        padding: 15px 0;
+    }
+    ._netbook_members_link {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+    ._netbook_members_card_title {
+        font-size: 18px;
+    }
+    ._netbook_members_card_tag {
+        font-size: 14px;
+    }
+    /* Netbook Members Section end */
+    /* Netbook Application Section Start */
+    ._netbook_application_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._netbook_application_tag {
+        font-size: 16px;
+        text-align: center;
+    }
+    ._netbook_application_title {
+        font-size: 28px;
+        text-align: center;
+    }
+    ._netbook_application_para {
+        font-size: 14px;
+        text-align: center;
+        max-width: 100%;
+    }
+    /* Netbook Application Section End */
+    /* Netbook Blog Section Start */
+    .netbook_blog_tag {
+        font-size: 15px;
+    }
+    ._netbook_blog_title {
+        font-size: 28px;
+    }
+    ._netbook_blog_content_title {
+        font-size: 16px;
+        max-width: 68%;
+        margin: 0 0 12px 0;
+    }
+    ._netbook_blog_content_link {
+        font-size: 14px;
+    }
+    /* Netbook Blog Section End */
+    /* Netbook Footer Section Start */
+    ._netbook_footer_subscribe_form {
+        width: 50%;
+        padding: 16px 24px;
+    }
+    ._netbook_footer_title {
+        font-size: 16px;
+    }
+    ._netbook_footer_link {
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_title {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    ._netbook_footer_subscibe_para {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    ._netbook_footer_subscribe_input{
+        width: 55%;
+    }
+    ._netbook_footer_subscribe_input::placeholder{
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_link {
+        font-size: 14px;
+        padding: 19px 24px;
+    }
+    /* Netbook Footer Section End */
+    /* Netbook EndFooter Section Start */
+    ._netbook_end_footer_para{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_footer_logo{
+        margin: 0 auto;
+    }
+    ._netbook_end_footer_list {
+        justify-content: center;
+        margin: 30px 0 0 0;
+    }
+    /* Netbook EndFooter Section End */
+}
+@media (max-width: 767px) and (min-width: 576px){
+    /* Netbook Header Section Start */
+    ._netbook_nav_list{
+        margin: 16px 0 0 0;
+    }
+    ._netbook_nav_item{
+        margin: 0 0;
+    }
+    ._netbook_nav_link{
+        font-size: 12px;
+    }
+    ._netbook_btn_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ._netbook_search_box {
+        margin: 0 0 20px 0;
+    }
+    ._netbook_search_input {
+        text-align: start;
+        width: 100%;
+    }
+    ._netbook_btn_link {
+        padding: 14px 28px;
+    }
+    ._netbook_header_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+    ._netbook_header_title {
+        font-size: 30px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_header_para {
+        font-size: 12px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_header_wrap_link_active {
+        font-size: 12px;
+        padding: 18px 22px;
+    }
+    ._netbook_header_wrap_link{
+        font-size: 12px;
+        padding: 18px 22px;
+    }
+    /* Netbook Header Section end */
+    /* Netbook About Section Start */
+    ._netbook_about_wrapper{
+        padding: 70px 0;
+    }
+    ._netbook_about_wrap{
+        margin: 0 0 50px 0;
+    }
+    ._netbook_about_tag {
+        text-align: center;
+        font-size: 15px;
+    }
+    ._netbook_about_title {
+        text-align: center;
+        font-size: 26px;
+        max-width: 100%;
+    }
+    ._netbook_about_para {
+        text-align: center;
+        font-size: 14px;
+        max-width: 100%;
+    }
+    ._netbook_about_item {
+        font-size: 14px;
+    }
+    ._netbook_about_card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_about_card::before {
+        max-width: 265px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    ._netbook_about_right_image {
+        margin: 0 0 0 0;
+    }
+    ._netbook_about_inner_image_left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_about_inner_image_left::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    ._netbook_about_inner_image_icon {
+        bottom: 0;
+        left: 0;
+        transform: translate(-340%, 60%);
+    }
+    ._netbook_about_inner_image_icon._translate{
+        transform: translate(-340%, 50%);
+    }
+    ._netbook_about_inner_image_right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /* Netbook About Section end */
+    /* Netbook Achievement Section Start */
+    ._netbook_achievement_wrapper{
+        padding: 70px 0;
+    }
+    ._netbook_achievement_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 32px 24px;
+    }
+    ._netbook_avhievement_card_title {
+        font-size: 14px;
+        margin: 0 0 19px 0;
+    }
+    ._netbook_achievement_card_para {
+        text-align: center;
+    }
+    ._netbook_achievement_work {
+        margin: 0 0 23px 0;
+    }
+    ._netbook_achievement_work_para {
+        font-size: 14px;
+    }
+    ._netbook_achievement_card_link {
+        font-size: 14px;
+    }
+    ._netbook_achievement_text_wrap {
+        margin: 20px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ._netbook_achievement_tag {
+        font-size: 14px;
+    }
+    ._netbook_achievement_title {
+        font-size: 22px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_achievement_para {
+        font-size: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._netbook_achievement_link {
+        padding: 18px 28px;
+    }
+    /* Netbook Achievement Section end */
+    /* Netbook Community Section Start */
+     ._netbook_community_wrapper{
+        padding: 70px 0;
+    }
+     ._netbook_community_wrap {
+        padding: 30px 0;
+    }
+    ._netbook_community_tag {
+        font-size: 16px;
+    }
+    ._netbook_community_title {
+        font-size: 26px;
+    }
+    ._netbook_community_content_wrap {
+        padding: 30px;
+        margin: 0 0 34px 0;
+    }
+    ._netbook_community_content_wrap span {
+        width: 56px;
+        height: 56px;
+    }
+    ._netbook_community_content_wrap svg{
+        width: 56px;
+        height: 56px;
+    }
+    ._netbook_community_content_title {
+        font-size: 18px;
+    }
+    ._netbook_community_para {
+        font-size: 14px;
+    }
+    /* Netbook Community Section end */
+     /* Netbook Members Section Start */
+     ._netbook_members_wrapper {
+        padding: 70px 0;
+    }
+     ._netbook_members_wrap {
+        padding: 40px 0;
+    }
+    ._netbook_members_tag {
+        font-size: 15px;
+    }
+    ._netbook_members_title {
+        font-size: 28px;
+    }
+    ._netbook_members_para {
+        font-size: 14px;
+    }
+    ._netbook_members_item {
+        padding: 15px 0;
+    }
+    ._netbook_members_link {
+        font-size: 14px;
+        padding: 15px 30px;
+    }
+    ._netbook_members_card_title {
+        font-size: 18px;
+    }
+    ._netbook_members_card_tag {
+        font-size: 14px;
+    }
+    /* Netbook Members Section end */
+    /* Netbook Application Section Start */
+    ._netbook_application_wrapper {
+        padding: 70px 0 0 0;
+    }
+    ._netbook_application_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._netbook_application_tag {
+        font-size: 14px;
+        text-align: center;
+    }
+    ._netbook_application_title {
+        font-size: 25px;
+        text-align: center;
+    }
+    ._netbook_application_para {
+        font-size: 13px;
+        text-align: center;
+        max-width: 100%;
+    }
+    /* Netbook Application Section End */
+    /* Netbook Blog Section Start */
+    ._netbook_blog_wrapper {
+        padding: 70px 0;
+    }
+    ._netbook_blog_content_wrap::before {
+        display: none;
+    }
+    ._netbook_blog_content_wrap::after {
+        display: none;
+    }
+    .netbook_blog_tag {
+        font-size: 14px;
+    }
+    ._netbook_blog_title {
+        font-size: 25px;
+        margin: 0 0 50px 0;
+    }
+    ._netbook_blog_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._netbook_blog_content_title {
+        font-size: 14px;
+        max-width: 68%;
+        margin: 0 0 12px 0;
+    }
+    ._netbook_blog_content_link {
+        font-size: 14px;
+    }
+    /* Netbook Blog Section End */
+    /* Netbook Footer Section Start */
+     ._netbook_footer_wrapper {
+        padding: 70px 0;
+    }
+     ._netbook_footer_subscribe_form {
+        width: 70%;
+        padding: 16px 24px;
+    }
+    ._netbook_footer_title {
+        font-size: 16px;
+    }
+    ._netbook_footer_link {
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_title {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    ._netbook_footer_subscibe_para {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    ._netbook_footer_subscribe_input{
+        width: 60%;
+    }
+    ._netbook_footer_subscribe_input::placeholder{
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_link {
+        font-size: 14px;
+        padding: 19px 24px;
+    }
+    /* Netbook Footer Section End */
+    /* Netbook EndFooter Section Start */
+    ._netbook_end_footer_para{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_footer_logo{
+        margin: 0 auto;
+    }
+    ._netbook_end_footer_list {
+        justify-content: center;
+        margin: 30px 0 0 0;
+    }
+    /* Netbook EndFooter Section End */
+}
+@media (max-width: 575px){
+    /* Netbook Header Section Start */
+    ._netbook_nav_list{
+        margin: 16px 0 0 0;
+    }
+    ._netbook_nav_item{
+        margin: 0 0;
+    }
+    ._netbook_nav_link{
+        font-size: 12px;
+    }
+    ._netbook_btn_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ._netbook_search_box {
+        margin: 0 0 20px 0;
+    }
+    ._netbook_search_input {
+        text-align: start;
+        width: 100%;
+    }
+    ._netbook_btn_link {
+        padding: 14px 28px;
+    }
+    ._netbook_header_content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+    ._netbook_header_title {
+        font-size: 26px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_header_para {
+        font-size: 12px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_header_wrap_link_active {
+        font-size: 12px;
+        padding: 15px 19px;
+    }
+    ._netbook_header_wrap_link{
+        font-size: 12px;
+        padding: 15px 19px;
+    }
+    /* Netbook Header Section end */
+    /* Netbook About Section Start */
+    ._netbook_about_wrapper{
+        padding: 50px 0;
+    }
+    ._netbook_about_wrap{
+        margin: 0 0 50px 0;
+    }
+    ._netbook_about_tag {
+        text-align: center;
+        font-size: 14px;
+    }
+    ._netbook_about_title {
+        text-align: center;
+        font-size: 22px;
+        max-width: 100%;
+    }
+    ._netbook_about_para {
+        text-align: center;
+        font-size: 12px;
+        max-width: 100%;
+    }
+    ._netbook_about_item {
+        font-size: 12px;
+    }
+    ._netbook_about_card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_about_card::before {
+        max-width: 265px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    ._netbook_about_right_image {
+        margin: 0 0 0 0;
+    }
+    ._netbook_about_inner_image_left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_about_inner_image_left::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    ._netbook_about_inner_image_icon {
+        bottom: 0;
+        left: 0;
+        transform: translate(-340%, 60%);
+    }
+    ._netbook_about_inner_image_icon._translate{
+        transform: translate(-340%, 50%);
+    }
+    ._netbook_about_inner_image_right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* Netbook About Section end */
+    /* Netbook Achievement Section Start */
+    ._netbook_achievement_wrapper{
+        padding: 0 0;
+    }
+    ._netbook_achievement_card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 22px 10px;
+    }
+    ._netbook_avhievement_card_title {
+        font-size: 12px;
+        margin: 0 0 19px 0;
+    }
+    ._netbook_achievement_card_para {
+        font-size: 12px;
+        text-align: center;
+    }
+    ._netbook_achievement_work {
+        margin: 0 0 23px 0;
+    }
+    ._netbook_achievement_work_para {
+        font-size: 12px;
+    }
+    ._netbook_achievement_card_link {
+        font-size: 12px;
+    }
+    ._netbook_achievement_text_wrap {
+        margin: 20px 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ._netbook_achievement_tag {
+        font-size: 12px;
+    }
+    ._netbook_achievement_title {
+        font-size: 18px;
+        text-align: center;
+        max-width: 100%;
+    }
+    ._netbook_achievement_para {
+        font-size: 12px;
+        max-width: 100%;
+        text-align: center;
+    }
+    ._netbook_achievement_link {
+        font-size: 12px;
+        padding: 18px 28px;
+    }
+    /* Netbook Achievement Section end */
+    /* Netbook Community Section Start */
+     ._netbook_community_wrapper{
+        padding: 0 0;
+     }
+     ._netbook_community_wrap {
+        padding: 30px 0;
+    }
+    ._netbook_community_tag {
+        font-size: 14px;
+    }
+    ._netbook_community_title {
+        font-size: 24px;
+    }
+    ._netbook_community_content_wrap {
+        padding: 30px;
+        margin: 0 0 34px 0;
+    }
+    ._netbook_community_content_wrap span {
+        width: 46px;
+        height: 46px;
+        margin: 0 16px 0 0;
+    }
+    ._netbook_community_content_wrap svg{
+        width: 46px;
+        height: 46px;
+    }
+    ._netbook_community_content_title {
+        font-size: 16px;
+    }
+    ._netbook_community_content_para {
+        font-size: 12px;
+    }
+    ._netbook_community_para {
+        font-size: 12px;
+    }
+    /* Netbook Community Section end */
+     /* Netbook Members Section Start */
+     ._netbook_members_wrapper {
+        padding: 0 0;
+    }
+     ._netbook_members_wrap {
+        padding: 40px 0;
+    }
+    ._netbook_members_tag {
+        font-size: 14px;
+    }
+    ._netbook_members_title {
+        font-size: 25px;
+    }
+    ._netbook_members_para {
+        font-size: 14px;
+    }
+    ._netbook_members_item {
+        padding: 15px 0;
+    }
+    ._netbook_members_link {
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+    ._netbook_members_card_title {
+        font-size: 15px;
+    }
+    ._netbook_members_card_tag {
+        font-size: 13px;
+    }
+    /* Netbook Members Section end */
+    /* Netbook Application Section Start */
+    ._netbook_application_wrapper {
+        padding: 50px 0 0 0;
+    }
+    ._netbook_application_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._netbook_application_tag {
+        font-size: 13px;
+        text-align: center;
+    }
+    ._netbook_application_title {
+        font-size: 22px;
+        text-align: center;
+    }
+    ._netbook_application_para {
+        font-size: 13px;
+        text-align: center;
+        max-width: 100%;
+    }
+    /* Netbook Application Section End */
+    /* Netbook Blog Section Start */
+    ._netbook_blog_wrapper {
+        padding: 50px 0;
+    }
+    ._netbook_blog_content_wrap::before {
+        display: none;
+    }
+    ._netbook_blog_content_wrap::after {
+        display: none;
+    }
+    .netbook_blog_tag {
+        font-size: 14px;
+    }
+    ._netbook_blog_title {
+        font-size: 25px;
+        margin: 0 0 50px 0;
+    }
+    ._netbook_blog_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._netbook_blog_content_title {
+        font-size: 14px;
+        max-width: 68%;
+        margin: 0 0 12px 0;
+    }
+    ._netbook_blog_content_link {
+        font-size: 14px;
+    }
+    /* Netbook Blog Section End */
+    /* Netbook Footer Section Start */
+    ._netbook_footer_wrapper {
+        padding: 50px 0;
+    }
+     ._netbook_footer_subscribe_form {
+        width: 100%;
+        padding: 16px 24px;
+    }
+    ._netbook_footer_title {
+        font-size: 16px;
+    }
+    ._netbook_footer_link {
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_title {
+        font-size: 16px;
+        max-width: 100%;
+    }
+    ._netbook_footer_subscibe_para {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    ._netbook_footer_subscribe_input{
+        width: 60%;
+    }
+    ._netbook_footer_subscribe_input::placeholder{
+        font-size: 12px;
+    }
+    ._netbook_footer_subscribe_link {
+        font-size: 14px;
+        padding: 19px 24px;
+    }
+    /* Netbook Footer Section End */
+    /* Netbook EndFooter Section Start */
+    ._netbook_end_footer_para{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+    }
+    ._netbook_footer_logo{
+        margin: 0 auto;
+    }
+    ._netbook_end_footer_list {
+        justify-content: center;
+        margin: 30px 0 0 0;
+    }
+    /* Netbook EndFooter Section End */
+}
+/* Responsive CSS End */
